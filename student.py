@@ -48,6 +48,8 @@ HTML = u"""<!DOCTYPE html>
                             </thead>
                             <tbody>
                                 {% set total = [0] -%}
+                                {% set total_m = [0] -%}
+                                {% set total_f = [0] -%}
                                 {% for i in range(6) -%}
                                 <tr>
                                     <td>{{ i + 1 }}</td>
@@ -59,12 +61,14 @@ HTML = u"""<!DOCTYPE html>
                                                     {% set _ = sum.append(sum.pop() + cell[2] | int) -%}
                                                 {% endfor -%}
                                                 <td class="info">{{ sum[0] }}</td>
+                                                {% set _ = total_m.append(total_m.pop() + sum[0]) -%}
 
                                                 {% set sum = [0] -%}
                                                 {% for cell in result[i] -%}
                                                     {% set _ = sum.append(sum.pop() + cell[3] | int) -%}
                                                 {% endfor -%}
                                                 <td class="danger">{{ sum[0] }}</td>
+                                                {% set _ = total_f.append(total_f.pop() + sum[0]) -%}
                                             </tr>
                                             <tr class="success">
                                                 {% set sum = [0] -%}
@@ -91,8 +95,23 @@ HTML = u"""<!DOCTYPE html>
                                     {% endfor -%}
                                 </tr>
                                 {% endfor -%}
-                                <tr class="active text-left">
-                                    <td colspan="{{ width + 2 }}">{{ total[0] }}</td>
+                                <tr>
+                                    <td>合計</td>
+                                    <td>
+                                        <table class="table text-right">
+                                            <tr>
+                                                <td class="info">{{ total_m[0] }}</td>
+                                                <td class="danger">{{ total_f[0] }}</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td colspan="{{ width }}">
+                                        <table class="table text-left">
+                                            <tr>
+                                                <td class="warning">{{ total[0] }}</td>
+                                            </tr>
+                                        </table>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
