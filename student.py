@@ -354,7 +354,7 @@ HTML = u"""<!DOCTYPE html>
                                 $('select#schoolid').val(schoolid);
                                 $('select#schoolid').on('change', function() {
                                     var schoolid = $('select#schoolid').val();
-                                    window.location.href = 'student2.py?id=' + schoolid;
+                                    window.location.href = 'student.py?id=' + schoolid;
                                 });
                             });
                         })(jQuery);
