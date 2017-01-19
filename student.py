@@ -5,7 +5,7 @@ import re
 import cgi
 from bs4 import BeautifulSoup
 import mechanize
-#import percache
+import percache
 from jinja2 import Template
 
 HTML = u"""<!DOCTYPE html>
@@ -376,10 +376,11 @@ SPECIAL = {'url': 'https://std.tn.edu.tw/sis/AnonyQuery/SchoolStat.aspx',
 
 template = Template(HTML)
 
-#cache = percache.Cache('/tmp/my-cache')
+cache = percache.Cache('/tmp/my-cache')
+cache.clear(maxage=60)
 
 
-#@cache
+@cache
 def getTableData(schoolid='213623', url='', selectid='', tableid=''):
     br = mechanize.Browser()
 
@@ -449,7 +450,7 @@ def main():
     print
     print template.render(result=result, width=width).encode("UTF-8")
 
-    # cache.close()
+    cache.close()
 
 if __name__ == '__main__':
     main()
