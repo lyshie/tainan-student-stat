@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import os
 import re
 import cgi
 from bs4 import BeautifulSoup
@@ -377,7 +378,13 @@ SPECIAL = {'url': 'https://std.tn.edu.tw/sis/AnonyQuery/SchoolStat.aspx',
 template = Template(HTML)
 
 cache = percache.Cache('/tmp/my-cache')
-cache.clear(maxage=60)
+
+# DB_PAGE_NOTFOUND: Requested page not found
+try:
+    cache.clear(maxage=60)
+except:
+    os.remove('/tmp/my-cache')
+    cache = percache.Cache('/tmp/my-cache')
 
 
 @cache
