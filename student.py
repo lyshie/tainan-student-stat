@@ -361,7 +361,7 @@ HTML = u"""<!DOCTYPE html>
                         })(jQuery);
                     </script>
                 </div>
-            <div>
+            </div>
         </div>
     </body>
 
