@@ -1,0 +1,346 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head><meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">   google.load("jquery", "1");</script>
+<link rel="stylesheet" href="js/jquery.autocomplete.css" type="text/css" /> <script type="text/javascript" src="js/jquery.autocomplete.pack.js"></script>
+
+<link type="text/css" href="Menu/menu.css" rel="stylesheet" /><title>
+	詳細資料
+</title>
+    <style type="text/css">
+* { margin:0;
+    padding:0;
+}
+
+div#menu {
+    top:120px;
+    left:0px;
+    width:100%;
+}
+.adjustedZIndex {
+    z-index: 1;
+}
+
+</style>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /></head>
+<body topmargin="0" leftmargin="0">
+    <form name="aspnetForm" method="post" action="sch_detail.aspx?sch_code=114764" id="aspnetForm" enctype="multipart/form-data">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="6ZvUHtSEZRcjQtQOH+zo/zL1p4SaeX8Axeoj37U7flICUSDApimjFtUJSoUcgIzQwJtAby//4SMCXej/e/LhiWIU33HOT08eSd+KcFtJO3uFxKLlc9mlHh4yJUnw059ZSOGNZQ==" />
+    <table border=0 width=100%>
+    <tr ><td valign=top width=100% >
+    <table border="0" width="100%" id="table1" background="/sch_data/image/a2.gif" height="118" cellspacing="0" cellpadding="0">
+	<tr>
+		<td style="height: 128px">
+           
+		
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td >
+                        <img id="ctl00_Image1" src="image/a1.jpg" border="0" /></td>
+                    <td colspan="2" align="center" valign="bottom">
+                                <span id="ctl00_admMsg"><b><font color="MediumBlue"></font></b></span>
+                        <br />
+                        <input id="ctl00_UcLoginStatus1_LoginStatus1" type="image" name="ctl00$UcLoginStatus1$LoginStatus1$ctl03" src="images/sign-in.gif" alt="登入" border="0" />
+
+                        <br />
+                        &nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left" 
+                        
+                        style=" background-color:White; vertical-align: top; margin-top: 0px; padding-top: 0px; clip: rect(0px, auto, auto, auto); height: 50px;" valign="baseline" dir="ltr">
+                        
+                       
+                        
+                        <!--自訂Menu-->
+           <div id="menu">
+        <ul class="menu" style="width: 97%; height: 100%;">
+        <!--選單一-->
+        <li><a href="../../../../../sch_data/default.aspx" class="parent" style="left: 0px; top: 0px"><span>各級學校</span></a></li>
+        <!--選單結束-->
+
+        <!--選單二-->
+        <li><a href="#" class="parent"><span>報表統計</span></a>
+        <div><ul>
+            <li><a href="../../../../../sch_data/reports/repOfficelist.aspx"><span>校長主任列表</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repOfficelistNoTel.aspx"><span>校長主任列表_不含電話</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repClass.aspx"><span>班級數統計</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repCountstu.aspx"><span>學生人數統計</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repspClass.aspx"><span>特殊班統計</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repMemberCount.aspx"><span>人員統計</span></a></li>
+            <!--2011/12/2修改不提供這兩項數據
+            <li><a href="../../../../../sch_data/CrystalReports/crpt_sch.aspx"><span>學校報表</span></a></li>
+            <li><a href="../../../../../sch_data/CrystalReports/crpt_schtel.aspx"><span>學校電話</span></a></li>
+            -->
+            </ul></div></li>
+        <!--選單結束-->
+
+        <!--選單三-->
+        <li><a href="#" class="parent"><span>學校專區</span></a>
+        <div><ul>
+            <li><a href="../../../../../sch_data/UserUpdate/update_sch.aspx"><span>填報或修改學校資料</span></a></li>
+            <li><a href="../../../../../sch_data/UserUpdate/DownloadSchTel.aspx"><span>各校電話下載</span></a></li>
+            </ul></div></li>
+        <!--選單結束-->
+
+        <!--選單四-->
+        <li><a href="#" class="parent"><span>教育局</span></a>
+        <div><ul>
+            <li><a href="../../../../../sch_data/admin/schmenu.aspx"><span>資料管理</span></a></li>
+            </ul></div></li>
+        <!--選單結束-->
+
+        <!--選單五-->
+        <li><a href="#" class="parent"><span>學校使用手冊</span></a>
+            <div><ul> 
+            <li><a href="../../../../../sch_data/Manual/各級學校基本資料-學校使用手冊.pdf"><span>使用手冊下載</span></a></li>
+         <!--選單結束-->
+
+            </ul></div>
+        </li>
+    </ul>
+</div>              
+<!--自訂Menu結束-->
+
+                    </td>
+                    <td style="background-color:White; height: 50px;" valign="bottom">
+                        &nbsp;</td>
+                       
+                </tr>
+            </table>
+		</td>
+	</tr>
+	
+</table>
+</td></tr>
+<tr><td valign="top">
+    
+    <div style="text-align: center">
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 95%">
+	<tr>
+		<td id="ctl00_ContentPlaceHolder1_td_detail" bgcolor="#ffcc99" style="width: 99px; height: 19px">
+                    [<a id="ctl00_ContentPlaceHolder1_ButdetailData" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ButdetailData','')">詳細資料</a>]</td>
+		<td id="ctl00_ContentPlaceHolder1_td_sch" bgcolor="#ffcc99" style="width: 100px; height: 19px">
+                    [<a id="ctl00_ContentPlaceHolder1_Butsch" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$Butsch','')">校務資料</a>]</td>
+		<td id="ctl00_ContentPlaceHolder1_td_map" bgcolor="#ffcc99" style="width: 100px; height: 19px">
+                    [<a id="ctl00_ContentPlaceHolder1_Butmap" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$Butmap','')">位置圖</a>]</td>
+		<td colspan="3" style="height: 19px">
+                    <span id="ctl00_ContentPlaceHolder1_msg"><font color="Red" size="3"></font></span>
+                    上次更新日期：<span id="ctl00_ContentPlaceHolder1_txtsch_getdate">2017/8/9 上午 11:35:00</span></td>
+	</tr>
+	<tr>
+		<td colspan="7" align="center" valign="top">
+                    <div id="ctl00_ContentPlaceHolder1_Panel1">
+			
+                        <div style="text-align: center">
+                            <table border="1" bordercolor="#99cccc" cellpadding="0" cellspacing="0" style="width: 100%; ">
+                                <tr>
+                                    <td style=" color: #993300;">
+                                        學校代碼</td>
+                                    <td align="left" colspan="2" style="height: 19px">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_code">114764</span></td>
+                                        <td rowspan="5" style="text-align: center;" colspan=2>
+                                            &nbsp;
+                                            <input type="image" name="ctl00$ContentPlaceHolder1$ImageButton1" id="ctl00_ContentPlaceHolder1_ImageButton1" src="photo/114764/school.jpg" border="0" />
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #993300;">
+                                        中文名稱</td>
+                                    <td align="left" colspan="2">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_ch_name">市立菁寮國小</span></td>
+                                </tr>
+                                <tr>
+                                    <td style=" color: #993300; height: 21px;">
+                                        英文名稱</td>
+                                    <td align="left" colspan="2" style="height: 21px">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_en_name">Tainan Municipal Houbi District Jingliao Elementary School</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #993300;">
+                                        建校日期</td>
+                                    <td align="left" colspan="2" style="height: 19px">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_birth_date">1911/03</span></td>
+                                </tr>
+                                <tr>
+                                    <td style=" color: #993300;">
+                                        註 記</td>
+                                    <td align="left" colspan="2">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_note">正常</span></td>
+                                </tr>
+                                <tr>
+                                    <td style=" color: #993300; height: 2px;">
+                                        學校地址</td>
+                                    <td align="left" colspan="4" style="height: 2px">
+                                        &nbsp;<span id="ctl00_ContentPlaceHolder1_txtzip"></span>
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_add">731臺南市後壁區墨林里0鄰282號</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #993300; height: 19px;">
+                                        學校網址</td>
+                                    <td align="left" colspan="4" style="height: 19px">
+                                        <a id="ctl00_ContentPlaceHolder1_Linksch_url" href="http://www.jlps.tn.edu.tw">http://www.jlps.tn.edu.tw</a></td>
+                                </tr>
+                                <tr>
+                                    <td style=" color: #993300; height: 21px;">
+                                        校 長</td>
+                                    <td align="left" style="height: 21px" colspan="4" >
+                                        <span id="ctl00_ContentPlaceHolder1_txtprl_name">戴淑娟</span>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td align="left" bgcolor="#ccff99" colspan="5" style="height: 19px; color: #993300;">
+                                        學校電話</td>
+                                </tr>
+                                <tr>
+                                    <td  colspan="5" style="height: 142px">
+                                        <table id="ctl00_ContentPlaceHolder1_DataList1" cellspacing="0" cellpadding="4" rules="all" border="1" width="90%">
+				<tr>
+					<td bgcolor="#EFF3FB"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl00_officeIdLabel">學校電話</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl00_officerLabel">6621271</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td><td bgcolor="White"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl01_officeIdLabel">傳真一</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl01_officerLabel">6622114</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td>
+				</tr><tr>
+					<td bgcolor="#EFF3FB"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl02_officeIdLabel">校長室</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl02_officerLabel">6621271  [戴淑娟校長]<br>網路電話：178001</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td><td bgcolor="White"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl03_officeIdLabel">教務處</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl03_officerLabel">6621271  [歐光哲主任]<br>網路電話：178010</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td>
+				</tr><tr>
+					<td bgcolor="#EFF3FB"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl04_officeIdLabel">總務處</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl04_officerLabel">6621271  [曾哲瑩主任]<br>網路電話：178040</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td><td bgcolor="White"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl05_officeIdLabel">人事室</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl05_officerLabel">6621271  [蔡菀娗主任]<br>網路電話：178401</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td>
+				</tr><tr>
+					<td bgcolor="#EFF3FB"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl06_officeIdLabel">主計室</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl06_officerLabel">6621271  [林秋萍主任]<br>網路電話：178050</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td><td><font color="#333333"></font></td>
+				</tr>
+			</table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    
+		</div>
+                    
+                    
+                    
+                     
+                   
+                </td>
+	</tr>
+</table>
+
+    </div>
+
+     <!--各系統諮詢網頁註腳開始，收件人請自行增加，但一定要包含service@tn.edu.tw這個收件人-->	
+	<table border="0" width="100%" bgcolor="#DFE1DD" cellspacing="0" cellpadding="0" height="35">
+		        <tr>
+　		        <td>
+        <div align="center">
+	        <table border="0" cellspacing="0" cellpadding="0">
+		        <tr>
+		        		         <td>
+        <div align="center">
+	        <table border="0" cellspacing="0" cellpadding="0">
+		        <tr>
+			        <td>
+			        <p align="right">
+        <font size="2">行政業務諮詢：</font></td>
+			        <td>
+			        <p style="margin-bottom: 2px">
+        <a href="http://epaper.tn.edu.tw/edmail/"><font size="2">
+        <img border="0" src="http://www.tn.edu.tw/2011images/email2.gif" alt="郵件諮詢" title="郵件諮詢"></font></a></td>
+			        <td>
+        <font size="2">‧( 06 ) 2991111　<font color="#000000">｜　</font></font></td>			        
+		        </tr>
+	        </table>
+        </div>
+			        </td>
+			        <td>
+			        <p align="right">
+        <font size="2">　系統諮詢：</font></td>
+			        <td>
+			        <p style="margin-bottom: 2px">
+        <a href="mailto:service@tn.edu.tw?subject=各級學校基本資料有關之問題與建議"><font size="2">
+        <img border="0" src="http://www.tn.edu.tw/2011images/email2.gif" alt="郵件諮詢" title="郵件諮詢"></font></a></td>
+			        <td>
+        <font size="2">‧( 06 ) 2130669（<a href="http://www.tn.edu.tw/readme.htm"><font color="#000000">服務說明</font></a>）</font></td>
+			        <td>
+        <font size="2">｜Copyright &copy; 2011 臺南市教育局資訊中心 All Rights Reserved.</font></td>
+		        </tr>
+	        </table>
+        </div>
+			        </td>
+		        </tr>
+	</table>
+    <!--各系統諮詢網頁註腳結束-->
+
+</td></tr>
+</table>
+                        
+    </form>
+</body>
+</html>

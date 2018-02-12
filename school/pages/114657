@@ -1,0 +1,355 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head><meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">   google.load("jquery", "1");</script>
+<link rel="stylesheet" href="js/jquery.autocomplete.css" type="text/css" /> <script type="text/javascript" src="js/jquery.autocomplete.pack.js"></script>
+
+<link type="text/css" href="Menu/menu.css" rel="stylesheet" /><title>
+	詳細資料
+</title>
+    <style type="text/css">
+* { margin:0;
+    padding:0;
+}
+
+div#menu {
+    top:120px;
+    left:0px;
+    width:100%;
+}
+.adjustedZIndex {
+    z-index: 1;
+}
+
+</style>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /></head>
+<body topmargin="0" leftmargin="0">
+    <form name="aspnetForm" method="post" action="sch_detail.aspx?sch_code=114657" id="aspnetForm" enctype="multipart/form-data">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Y4oLQ6ujVWi4Uq+7BIx/L+QKZE0alh2M9WWjkWjbejxvtcG/5G3jW0RwhmilnbwlWRc3O+9/LpsLtq7mXpKumH1qlDY7PO/pFK9IRVQm3wg3eBscm2xzn10CJrJxA6iBykGV3L3enxuQKeATP4hZmtirmEqxfE2Tg6stZqVh5USlJZb3KFflLxw2tLlMGUpGYcHXvW1CX4nsS7l8icadUKOIRLdDmGoJeFNUHpAeBIz0cOWqYbXGgPKQRMMbgGCVgDQqEZM0pqp8Bq/qUobTmkj1FzyMY6UdGt9xFvFrxjI5NIe25OYZQGpY/J8kY6QgpYZJ2lvAio2rqJBEXuRlRbhpuowFJLXsaFeAcMTsYxugoL5eW4Ox4649nKUyiTHl2Ae/+Y9gT4A0uriS5sljsreYTe7vyP40nsC0WobvTCKAzg902Hki+TUjQb4+ntNVOd/JKuSF7prOdJI6y6XJ9+zm+P6sP0OJxakp+VqTFHQ4m9G1LHico6iO6M8JCETagMVickWH+Zq+NTj8jKmTvOyzbduNo6g8oLf4ChDMIVflzCkN3G8rL0m7J8KZ0tuAFAszhNVDsRSEY1LSPvYpBVyxgu5YhKznRbn4lmMqWyj+BR6eJb4TBQRrxKx+QvkXDVCxTRxaudpsVUr+H11fV1GNs96YBVYjo55n+lVe58OnLnPpSSr0LRXUIgfakIc740DHV+887/FHQa8vYyJw0uBldFmREAlsSeuDk0We5sI5y64odL49pDyoXqoMQga53xAY1pWXoFqvo9gdYTYDBxqJ7pu36wfxTRKQMPZecM5hLo9G6tO7xRQvjnenfAHix3krdJ+rwVkF8YTK+Mm4drHJ0cs26roNj0Pt+L5HI6jvlD6bOowsgo8VjivisbQXb3RI6zQ23JGbtdwPr0p2aVFseEsEtesR0Ih98nb7QiZfJ9pakADVvCGv6+PKJv04DpzUYeXxVyRj/kbgKV5K1+k1WECSmLW8aa9GcJgo/mSawRr2wFWCiccNKbgMuAwUYyx+i3IolKNcPc+d3iTK2O/Z9jkTC+hhBKlo9cLw+6FjCdr47Jzufxorx2LEjNOpRvwFQbMhoNWscJsHVp1eUu+izagJy+7QiIomwBswhQjHlq0OAFpBbvNkyfh3RP0ad8jzqeqZXJRNX6CdxanovBvWloNuSgF3zfxagnLQbzXx+UT+jLKTq9pPu142ZJPcFB1UPbE1sbbpn05JbSco+xDZ6ezhMMDuH5ZSk0mcA2Ylo7ckEhYcn4stWooPZXH85Zez6pMTEQbOdMIpLRIr46fXzIyhaXZuJf6zxJLYzNPUVsURzsmJpEon3hVMV/6q4qSBuvtmezhRGtfgsLXwNiNACvLp4EHpOcYDXBcXYd9pi2xGdslZBbHGoEtaK1NA7tw6M8hQYUXKUFwV6AMLOivqzD9ExOpcFjSRkDDwLrnDjVFmsO4/Gksjk62ybU7M/GqeVnYnWw/R5/zwKvAeKk/x8lEKRjuN+OngEdDoNU/849YofAIw9FYb/z7KhS4r9OhRUrKvxYRficYZmtCHE7BIp40+aDGALuvi4SReQ5LmQEH+J6XLaChjL9rFp4nMlknmvvb4lUvi3MAn7WE7U/SHvCavdOHU2BVSvGa+2ptD+kUCAH0jSodgVqfDjRP/iE9GD4Ol674Ao3HTVTr9TOJs1J+4dKCRTVPT9dGCCop31S+pATP9D18Nk1h8Nvd+Y49hkaMz37gcEHWA7j6lZ7JYE2NqIj9m0EAw8fhRfMpX1LXUrdzx0iCIMGF1GPqoMpOx7uotBt6XLdOGWxC6RUMvQp9pRBfMpNh0ku0XDjzyk+xRQefEL/CLzHVCV3JdftOTD5xqRss1Rl0ghdnep1HyvYMeGh6FHooc0yrrvy1LNj+5lN6G+/FQQrq2J/ZNB/uhYl3hiqo9CmIJsOtUVM9evLDp9hfaKD3E6HK383plzrnL8rRug0gYLXQCT6ayV1tIxc+Pt2Jle++8qv7YyyEgTzfDuMDPBz8vmL/SZi+h94rlgElZbIzGTHNoatNRKblG4JFqf80qZQwTxg2NG4w//bG1e9/8sXb46G2y+Un78bWJlJWR1YldxqWCmnim6qJGwLb3VUUXbleE7d29MAAX+JPCRrgquAB35132k/TYXCOy2qrsxB9LrMNqB5vqOrKw0hVOECBxsZg8yNt15DQZsDg4LjONdkorlayJfUaJCl2YH1N4llDFgQ5BkUQ8qqNxcNeTCDENPYk1i23mueKOeCus0wqXwhZVuKLRc4ZDhbg1BmgqOgeEt4JHSijA8+LJ2R4TFXFuk9MSTvsFeL1HyP1b05nsDV24E/mjr2WxFRe1jQZKFz2IB1Yyn4rRrCkKvDqm0M0Wfawd/gcG4oE+wkFn6WfeYsW6yPSc5zJJbZJ+pkKdiPT7+M42zLTNEAqBuiZ1ZXOtisLLsQucYAdMbZJrmsYpkOWrZ/pO5k4hEkZD+aPht1N9EvKYVWYvWHez8RJpJMGcYbJT7csyTIOpHzHZi4c0qWKFLSZTPLSgQRqeVLb/RSAAqFfEW9OLlQbpzvAvsCXiVQqhzXuKfyVswZHamrOUBVemueARc80JkOJUunK8klkh3g/cPdtLJlZQQoyareqF72BJyl/kpRfI3nk1+GXmE32Z/nTe9C2/X9d5NWlEWe5noUYZ/fs0K19gIEReGIpflk4bld/BdjHIKTtcWPfX/brXot1PTnfewkrQqp0HoF5RdHj6tZ6BEwM1HLI/XzlPahz+Lv0JmeJH8q4BRg+9xsBfPC4VjLEum/zl+gjdd6qnPjYQ7DiWXhvu5zRuVLoNxeeenk+1YbIQRlk1hg3TYbvAo1uq2Q7h85LMardfu90sPgjtNNXLf2/r4jGlL6F+cy4Lm2EVtb8P7ea+F6gvXpWQDG6HEAEaSiZK95FpcKdecl6xJHEWHFhOKVQ0xmgeWWcDdwScNzbee+t9iG/UiT7e34F0/dOCCz+dRy8WHEzRHAaL11ywniaE520OQyHV/6JGPDuo1RqCdJQeakYMOvYUUPYtShklULpk7FKrPRpGjbzq2PWa0UxixlSdtW2Dg48k3gh1ff1FVz4HesfjuBlorHcBL7R74D1/b5OqILlVIWU1GGKDvEMTntSSYyIv8F4NQB0xh20mQpsEM+VjlHqo2EH4IieRIuGm5t2M5cJpuhvlyPxQyPpmvt0lTO3sBmQSDADchPKFLhom8JJGsIQSjtq3ml3fPZMugd/z+hk57Aj0rfINUWa2EkRHBy48Yd72Yn81OxUbZArXsFhVu+jEWMulsVfKX44GeDaUAV6IdVXRlwmMhE885+UZnvIdH1hWxaDfULnYF2p0k5ij5AO5lGcZJ3CTmuNhx3ld+LQGS+PDRj2WSq7wY1l5dFbN7E0JYZYoRcZo1H+P+6TceJjmnnxG6/Ke/vpSH+MTbthixjL0YzWUUsDNSsS3KaGr8n8wT4axTGguy4XFJ4zI4AxRdzWq2RcnbkJXxZhHvINMebTEnqMGO7a30KK3XnALwLspHcWyaHQy2PduA5k0q7KEvPc8+5YE5kdsvlkmEiawrinUbs/+ja8F+0WMMR3MGBXsiWt04W2Q3rTh88fisWjtYLJC3hchXHL+EyYWqd2WE7iCcHfTD6fMp/XmSglzId2qm9QxKfvAv19S7NgFRhycc956pahaqVeapIhLN6h19pxfFuGgj5lsGJVhAjKoPZVRUx+AjsvKvtNQKNvah7OMWMHL3dMxKJGjvM4nDwAv90SJuWwxCiKprbvvc3gvhI+5hPG3hHNIjst0VrahC8mRtGGC1fGG4U3xLdn9TqWVKCtekst0K/axikFfRjK3jjG5R2/MnslVDXNLRgIVOXST4qpAP3RqtFQvgv9DpLySusTKVtBaJ8kfeRcTuh4NQMn4fxBwOfjDaFWM39zLSavCHeRnyIrppb8NPPLadztza4sdKeMiorsORGv4DbUH3k3nOQdWiKbRgQHRdIm7gWua+EH8H1zOduYbJqgM07npu8wX2xbpybDcBk9KflmzZYcjV2YAtTuuNVvU9Mesm00LcFZ8VQp7RKqEvkP2M98JcyN4i1i1i3PRPLvDx46k0ORHdVgQyTNruF+/ymFLZkDiVYg3X/vye4evNgg2fvjazIwZZDV6rheeRQQuAeOeU/LB3kRYjxxTIY9J5ebNlJSwP1xbtodNbtI4JtfkltFu9tHk3lTjPKXkvfBNf5f47oRu2CWwosyqSTPHkLWQ0n32thR6+3wc5ifq86Yy6BuSvrbHtAW8zsN36D1fMvmenNA3twzkt6/s63/UBK594Aqp18IPDbsCEiL6gy+Jm8US3+TkMUx15Y+k3vNb8HXECyZQCtVb1KLmB/d5VCjovA2//1rB779C7K2pYXenKotiRnIWE3WyjZgzq7H6yUBToQeZQcrdi7Bsx+Iwf2KTQ2zAIUUxNQqelztPsccygYVOPY43C7kPfWYkYOixFosNXm8tKXetjvBvS/pjx5fXm1CPUca9A1SaCSr9PERSR7YIm06FvmTVmtxCWWUPezkib9b6916GE1EbtzKUoy5l+SebKKaQlC2wN5hwYMeM+6Bs/bVTBUd6+Ea5LOfb2L1BI2eWlGHuquCDBG6dyJI9E9Pg0lwupwQ10AJs71K4bQNbzh12zcW7Urk+p+7f18Os9T9FZRR3yV43jPMod7CMgPqqVoSj+Lv3JqgIW/AV/hriOEfw9fp5EZylreg1iN9a1vrbXq3TufhcOj40kLDKW8JYS6HiB5utPoAoWJa/nvW2zaRYeq9t1q9X0Zhdwr6kKyBpafVhGIcNqDFVzGYzdqzcDdOEHScjrXV50Sq0m7kwNpCU1gPDPAay9mtIVkCDvRLWc/XVyvCfkfbXIn7zZas2Lk+iP+05iyfryLUxWY1Pas7GeESclL/W91Za4Us9n8aR984ETEcw5eLUopTlaO017IlvFI6edSiUW+zwnZxtSAivxL5iYRATF8JQpJhwsoXyzDOswbDD9KhGuTzcSKrxtCnyiOAem2Z96K/UGba8fxjAd0gGymcUcYzk2uNh45q+tcIbcFeeamS12V5WYIarASwYTbknYZPaYHPcs5eENQmDN+mLlJP/ufrTpkIfDHVG8U9m2PqjLdxxTMLqDG1YT/n+BWanlHArsWUhBVf1ZBDBBCwCX9t/wSIpFj/avNhMXBjqDVnFQ282/pHguYIDht/mAOLsxG2Pp9LX6hKCTXajjQglAbnOHjUw1G+vJF3cLiHqRKCVn4dJg/xFFZKxPsf2Hxw+btsd9xHzhZLz5ylX2ZL6bwDrtM680yi4h3jqIQEFewJY1Ca9DXG1MB5u3rSjHB4+Vi0FzOggtydMqPGu9ed6vWpghzR0UQDexLV10/DWt3MOuSXON5up3180Wq3pG3LqUc2UpE3CkMIa9uLrIOwCBLpfIFqTp92veHFHBUEtHalKQh3JHtkGQ6auFsz/obLuFfPTjwO0Ur0Xm0cb4QE3gGqLOYMs+UgQwoNHl6U2nW6R9P4QYFFChn5XIJvvpj442jBkbrcNSXN+AOdWrl9xXaALeh8opDwR0NSnT5SZz+0qLmauRvdj9bttDbXC6PrcwmSpzKKWe34ViHIw1lspnM6Gb6Eedp+NStA8C4JCLmzmQENOX2QvDdVUoHZeI18Uxx8yeoeVMV1zaBOQdE6sba7BmG9l7LrLw8S/0H2x9yuNjqZzbO9gJ6XNHHk0LON+aiULZbptAIiSCgYtH0TzRYub9FIOVrHv8I0KkzangheFPhyAzvgvih35NuZu4vUZlnQKT93qzIxcDu6Sf3+oZw2jupxj803xSbOnpriMnyG5gWD9N9mCZkUtsZiRL4ILgMlA9IgVV4Pg979bc8mSHym3QzFVvm4VCPZHHTU1VhXZs5SqdpDcraKKFLpd4041jwY1xfPH2TQH3segJvBgOBgGlkVdv8FLKE9ANPI88r/fJd05Efy7h3Zrp7ilhmmnwT/FkniXz5bt31FDUyOVkjPvNX2ngh/chXvYiJXNOggsz+/cGH/Cslknwmthxx6dDIaUkNHLc2Rabz8YDRSmwxyi9BqGgQHzRq9QjLbELGU4zDHyWBKwXh5+g/NTUx2RtFZAz2+4vMjZVyx0pLQpQRvE4eunlWxMrHFBfpfuA1u+Lac75oa8qY1+8Rj4J315z5+GBsVrBSh4P5nwSzPvdF8N3JZpjsP93JkH7uQ2MnTm+WTP0QdLIVRjI8YGOY2KqdB7mLZBjaiOgbyAxwvOrZj0Dj8luiB7oLt1Gr2KHQGGsUoKvgeH8gJW7NdUf0piOsx122tAtLv4S73hv86UxAE2IkdowvKqCi4C1pnkDXhM+HcdFu68hUfavQKYQfG5VJzTHdajhjBUlxWAIgwnKYpRvtomiZDMXaRbpFqkmtzdwhWZpVt9ijqcz2Qvp+1VT7ZrOAbFHNM72wKwdVedZKABV1qmmO0UkHQTIu2wOihR71ytIm0CMDfeaKPpR3CphrTouT+0gcmwQyzlPoGu/8s1SqahBUQhjC3rL0RMP9Xy6zWgq57J5wax4bII7meui1qN2w0o48T4eU/KPwO/K/M4tFURuvuPQdY9PC2xJIGDqWk496M/gpqKrKfIoymdd+ARSjeNfT0x0Wle/kvI+0BrCPSZ8ViKbKCE3r4bM43tzTjEhe560ypkg8dhTfk7+YNyJzuiP5vL7EojF2lYn5g7V6yJjyj3uECmFUOHrrsjgcHZc6NkvP3VemiqBrnJ2MsFnocSo0b49vQem2Es1eS5MxhLbxOu5L0ntxUYTYnnvpQ9UYvBAcdyiYLwWlzINhmLcCAyFALDKbeY4AdJtDFAQi7gU/tkzIFRKfhTL+VqIxVCZphaBXKDm8CiU3WsnlLpYERicA4KniTa62ZyBef/EeMvomN9YHALR7zSWH0SyK2a2rxtHIDTbhgOA52Etey8TarIwPFSXmhBupIiBzYM1bLemFQ2ng0NC8x5CGVfsRPNKlFi/m0tplpOAT/VOkPB8pNb1ufakwIVP5RtFuI0O3C9RhnjEw8ZU+Gh5DD2Cj7zcmDXHmv4Dos9aiNNhlnHuWYwDTJoGGjmLnkbZtNtSPzMN3O7rGQQwPYO7Z2exPBwCedsbZ9I1Wd3FKO2PQFYxtljN5fa9Ji6iKNRmuU7z0++V1Bw1BmrM+aud6CW0IYFdpPzmC81TESTcRCf9lck+FWkMxSCW6eVRudj/0MzsLQt7PIbjRUM0aJTUoo0cokfS7cbx15YZ4TXM6YogtJoxK5Y3oC5hRtUmAc4sXN1babcE7VF6X2/PQUNPplq18bn2K7a7QJgo+rQAdlsnbQ3rueQPjAkDGT9IDP4oI7pqhe788wyl5VfumBMjOhNyPJt+0rv8qt/XIajjnVT4lIOeJ5lOH9GoEefW9NREU+R/GVhuBhYaPIkuiAP/YX+86yUj9PubBnzPY7Nx5cVOa1E4Nmtnj9VQV+NhuViIodFv0dN7iONS7KvfuUi2WoOtRvB3UtxXbeIgibzeHrU8qhk1RZmkD4rfT5IhuwsAfs7Sh7usZjy22ybd1lIhEZcvK8TCXAhbUxBOcoDeBQzO7b0eDbKicfh7zqQZx+rn80xV/ayBTtJSE3BVikEGD/4X6oNePNQPOYjxAApLkz/sPObjt/yPs+tMXIJvH6g+5LRTQoeNYiAxeOAab+3kjj23s8eN/ud6ZTXa5mDNUrbGF040rvWWja4FQdtXC3FvK26LfCFjyukQqAEwu64R3Gv1UkJqhkHZDAWCvgB8raT1c7VymtL3TWgqe8eGooP4J9Jaa+d4W/dsffsgx1lkE/a3MsSiWEcHJpRTijXCd56jZzwZPkIaLa3FTGTG/hfRW2Zo601PJxWYhz60I2ELOccZ4l6s1O4LkRrYYt8J5KFKbS1gLu1ek8UhilZVzEJPduiCxtRzJDVSqRzlTLrTJ8ShGXHtStyh4bpRMprEmrZiwXU0XZHNjUnOuzOT7r4d9O2DuLHK+TwjAA69+S9lajHbIjGUB0XYEG8BHQv7koo9SKkk8a48+X7t/ZIgCWMOzjuLJ2CSyGl0lkg/n2Ctz4vuFi4KF6yvTgE3vM8FE9f2RhVLq2iG94nhT2K00y17EUlxYKPHefgiCuvHeuEe1B6yZy2ejgC0kqESgVzgVuV1r22/mYurL2F11pNIC6dFu0TT1KQMTC9u0W7/MMLEq0COWGaO65hCLHi+ueEbSuyeHNuqHiaP2CDdE9gl/QjVEIlsDSX/16YgCJgPKt61RYNCKmIosBG3v/b2xMrdrixQx6CH8YG/QtvMAcSorr4ebRxAO3Zx/JpOt2auQfTcuBij8vxx5rrKH1bFa35TGm1dnXXIa5ZHQNifkUVO4IfAYzo1nI/Z66J5pF8bxOUrNFo8RUhA3BvEM4Jn7ZEFvbKC+rZOhLxNwfS1AkT7mcmk/hv8WPXNcFI4litQhaBStR1PnNRvvEyhv+isnQzT5js8QmwalXwSmCsXdEGwd59Wu5+I9757lsyCRl98IGcGHW4j/NU6qgkK2wxInMjuW+AviRxJJmU/HvNoQLNn/ZRXE8FtGY7FMmIlV6D3BuE6rze7AalOSpsbKfVhNEaZWV3NZEm4W6IoBt0A5NEJUMjrktFL/h9KmdCnYTV6Uy/kuD2RbbPkOg4r6lOozd+9blUeKOpDa/7CrX4vVB2ZeQCwEhwWH6LIDNo0ly7CwQnm9BpOt7/IAE60t3xTk2Ddjf9rhVkrBCk7ATxlwJ9EPYANco6xIUN07jDTmh0lXWmweqkaCGg1ji5FB4XopBZVgwO6122sOVYi9CwxhwPHvub8YYULKuoZPszrsmDNEKDNNCHWQhLeg/YSxXOEuMZBnbIyE1H/0rQnwSXJ7D7qLzW0I2KGAaEGKPQ7m3mENFgkfSSrlNX14kViq+0hoIQHozH79M+rpRbNK2/2qQG3e4iadP5bbYmI25331q2kY5QqnlJSdOiJl1C+kzIZBRS0aiEgCWXZi3lv1eq4tLTl1TgJ6lI3H/kdiUGNkKJ/DQ5NGXqLIhLwwFWlS+rfuGOTz6ufDG4A4z3tRMfJh8bzVQz+1O3ReIjFeU/HH2LBo9tbHbAWhsKu3xbJhkgviQLnY1VFCOsqSHJY3sJ1JM1EiwLSON0YYl61YJJdgU7qyW5gFtlDiPS/3EZO4BDJpTBRQbQxQbz9LyQrhpv8DqefCNBQ4PHUpzf/1vg5oMwMrv+6RyqqufFGFsvDLnGq9VNCNHypymjwdMyOwHALtPnme78iH+OzxSH/xBztthp4638ih3tMJNiqs4oGQV1zOM0kpH7XbgOeMzB7blhXznzcOiFeF4QB95a/5RHO2GmAjB271q8JxZL7pmHCGISnhiNgFozpXKqV1e7NYgd3ecqiJg10GbdcSWeTkITf7xGzpmu73Ybl5TN8dli+jGZ2Zw5ryKt+dJXTs/oHZhH9oXjQcGGD/+fuSYaUyDaAjAenKFNyYJvsBFhyn++EbJRHv7CFAyQzfPVqc36Wv05pLyW9KSI3SEHAN3jw1XYarRjEmWF8lWROrHHyHyVZMQl1FU9MHHFLGXnjs21Jq3Fn5olTqXwTD4n6n6n5jPZEIYRK9Bm7YV8HyOy68IUce6wtS3hwiBbDLbcu2+zEOc07DbskNnVQOEQskrmikYDJZ0ALn4XkXf6/O3gq6ShBTywxO212pwaH3+5VJRXGXKen8jZUgW6sj6SDLQSJpYYtQYcsQ3e4XCn5fw0mrs5EAj38Vlfad3KaJ77z7JpmCe46Bi1E0xJ6RjeV/J1Z9XB89DYr3Pi/Yx+88K+cLoXCXQmAedp6GZxNlgiCsZjwJCLe61aYwZtUvZKDBvd/KKITU+W4hLsdbUEDAW+ArWJFYXtBhnS6yA3gO3oyyQwgtUUAMZJr1927SZflrQzRAoGIImdMApXOMPYBUzhIYotJ2ax6y/SasakcAc+tNoh//Fr3iWA08MQZqsnMQpQLkyfFKSVMBdNb+c7lDXPL9NcKaje3uwqk6kAsvW/+OZ3G3veBS7BEplU7WRbclFzxVtFDIHOOpKxGnLhkAKw5lFJteSRbtl8ciYhyQyf9cdyTzBXZPbtGIw6AsHvDhmvI+f3sSEGhwHtffA2i7I+z2wiEwZtFkSgJbSjuyXguLuCdEbPzkHui1cVmcL3/tka9zq6EQ2Dysv0ELTP45UXc+k28i7w89pj2DhRArvwJ50WmUI51ZYPBSldqDewyK6uZ8ftA1PgvsA3pD8jRgs/I53UDm9zJWp1haLOucYNci6lJSOdkN5f5j8s9OPhrZt1KkN5O1hDPnw7vNxNjewwBXJpQ9EOuKDvIdSRfY2mtEkPiFG0q/T4RTHBJj7AJCFyd2vWN66Q4I0TUyyBlAYvUQtsa0bxAz8l9VIAsLEzRYI2D+hj0Gi5eop2j3TREB/fUqDVSHnKJwyEm0Lv8qUey5L2kKtWXgOQUB7dckjxgSfDYucr7UEWsqPTjrPaZh6i2tIg2sVuA83H2MWUFfNtP+ZFxAE37KLj3vIFA0wQUooMtGY9fpHBrhNE2k8PeoM9m3LpmKMbwVLz3+q7xLsIhvwBB+T/wnQUuaBfc+B3c3qwNf3JcvdiG1aBP7pPli0penrFsIn0P0cRO+LWbbAw1ekCnjTu0zW+NVOTPfL/N/5DUbf1SDHLKGCKCyj2KgwaJuKd9t82deZ/ZVFgJIdTkubhaT3GidywMLfOMfstDZ8NswRN6tk2o3j7vZR+Il9A1ZfaOqoOsAhevdKkQSG5FmEK8oi6UehgDWI0DasfTLft+fKyXzj40xOd5v01EGo/JROlnS5ucZuTHhZLFYdjbFVfaQM7MKv7A8OmBBAUxpft4FQtPrGmDWweOJlmH0asb5Y6BATm2nSagIRBmkEwew+x9bDZ0EqXmf4hsYf5LIRuq/XmGcFAZbugGQCnlLQc4jUZuNtniYilxRGLM8i8eU3C2jMLo1+BgEC130wo/uTPvJUpbrL+o3EW3iI7+2bX+jdaH32mQ/ORZW0whiRU9xxjHIrF5LlGA7lApbVxe9l77fZouyOrZZAu7tp5mRXJFu3gL5jkO7RdmFryVEyRwUDKc7DyjYTex+OPSeChe5Ddg/F5HwCE8Mh6Kbb6Qk27/XEWCprigf+3uDS5HHy9g+t6Ztv3JNeTXWSU/BXJkuTRugGSL7diqPRXXA4PiYDNWRTlqxJ9QLpvfIDmxoLHVHFwkqo3YKuYrL2vtW52WE9vM7gUuDm/7LXQjyHFror7VFLf0RAUiT7tVTK7AehtyWOJKr415FN3lpuNOJr2qEjei+o1zRa1JNGRKuFZDyj4KiRyo1frE20noW34UiWOqi5xkFq4FyDCEQD6GKioIaBKCBC/myFTlTY7vjvBs9BmBVpvkIuakk1MJ15wGtrg6zUJJVr2nfHjRQy5F2FNwpRKthZcv/lgUu/2WyJHb79Pf065XjpjcuLeyQ5cHvGhPDBQ5Fux+aT7kmLO3jbAbkl7GGpRI9FFwEJPJCnW6xZR+3AAwUhcvYdSCiP8nBfmh/FP88EGrbUDGt0nNIzDmuQ3yEBbl9F9g3ZJYMdvmse3nNGBoX+as9plFpA1xOUWYB18AJgcKihBm983WARDk2sWsaJ51fIv0t2gnalzDhLjuryRwMhXYdl+REDskdU/yqivAtWWOEF9LIc3PqL5w7+Y5AEkVeuLSTdqI7Syj/4d2fXyunbkKhfY/T85xohcVHrVghG/7+dACZKE8k9VEh5ztZsASAlU+Fntii4NJdfxaMusyo/diT5XnRKMhkKvbjA+qVVb7nA8OFvGoE0sLspfOC5rNStho3i7m+Avl3T44eX51WpvmZh8nOZW5gtktuQM4hSsncAF+DTPysnGxhbgTKfH+XdHFqnmjOt+icO/1lhaP9CZwoagsZDYrBRQlZIXKT4tMokM9L5nz9Pq5SE5epPzwPeE79ztlAQGw85BZzPKai9QqKGmzfYwKshMiOsDrVOLCAjR4ArhEHHVZ743YKPAtxx8ZKieisyPOkjyocrtmny3+r3L6TiUIiFwGHFNxEBHnG041tuh31oxNivFH9Ia+InK326aeEwU8XEoMLHShHr6pdhdcDdmGpmQhlhrVm6IXjgGSD5QpAwX2apO3b3iEAAXkok61GS49vg4EQhyn8XUosHbMlEJUyUc2da2V4W+EFoe0675SbQGeP+P93s+ma4bs/bih9tEP0L1/KJ+YuRPykQu6ZAUNnp9Fk66CYvfBj/Or3IyedVqw5F5oC1VaYj08NOa0g7KXrdJ5x0zAv00RUr9/m3vUK7PwRwgVS9C4CX2gNR+OxWMaR2BXP7tNwN33EC2Z27K/t1PP1FpwxBXoOZ1pybWGQg2Ze74gj7Jrl/KtaOSVykrglHez2nymZ6d7jF363NjJyMaI91GwgE/y4EeCvT/JAdqPPcidafyz0aUIQuN1CbWUwqZvTHS5JYevzNFP70gzzREpRQnlZzdziS3DgmrPSJmWTAeN+hoQHDMxw6+T/etwx0AVdbLfrbFwsVxpcLYTWTX1kKBAGUVwqD/mTVHPkrgAbaRn1qgnC6r0HYKTZgqOXKu4ObRYK9mOgiwJe7piueFCyJ1ik5iJMIO2kx0EX+PQj73kQqy5f7fH7DdVYoKD+Hzxtqgye2BgrmIM/W6VJWMJHqP2yzsiAZUeyrHll85hJ3ZAhI0zr4Y8blO+//QFzI6Ht7T3LnHC4RSSw4IDN6TeIZvKh7uY5ygaD8cN/g3VEHjflzkojOjI83KSjAZsQxrwkL8TfFgCZYcsiuxntHaDCoXFpoJDm1n7f+B5PByyaSFrJiX2mjl3PEVCEjTpaJXCH0C3yqroE+sCxXAL406BPR1fVIzrMTUsoma9G1bqBjgMGUG/dUZAIpjhEV3Z0rJF23oSWzJeOnEEJyMvbfNiBZ2b+MV//zhz8u6TviszJInQ7/avgiazW1EfP/SFKf/+VpvK92Rqj7biudy3Iniz/kmSQ/GN8MJJyX0GaP3HziWqosQA0y9ls0J5ZUGWvhDVCs+ETGu6cQwMIdDUWD8Zq9R0hBfXbAuOUd8ZW4RXnYkAYGsYRHsg0u/aGL0PcQnNc8QbvqzlBxvBdn9Yu21FlVYPEHXX92E7x7cS902iIisFITqcbIAvNq45H1qs4FXJAuHA1xu1Qvtvz/QYtSbSsQbctsl1QVmUTblcQecoOxwaXfFduiy6ubP0KUZEte9fUH1IdMmjbDU8lrciwmeVHpavC6UJMe57Xu6eSxaWZShGEAbC2OgT0EGPdwIKutjnYNgZVH5YCGZPatVjtCiwBSw4Otk9iR1ADJXp3YiM/s0dU2lw3/8RZ/1g/ra98bRwRR3rZD3AP26+QELRPNiXLbQPU9Y300b6pQnpPzj/14SNgj8BXoW6/w6zp2b9mspoBDNqyXZR/4hguxGFZOy/vzTIQfnY4SXQf7DJelzY2o2y5+4elv6vaUY+8H9QLbWEf+0Qf8tBaCPXXhqas+avtiYzZ+cPG/40b43x10TN1k0bGI20eNThFpmzhwgFr0wsJOzglaFZAvNI3HSNZDLgerSuhTwECMfWaI92GNuyLuc5zJpNq9LehNHbUTtiuSoUjQ7DWPNeuqntue9dYJRZJxCDkL3bmvXw/+CnK/3DWnKVJC/PHyYN5wnofw+FAg2piOUQy43Bbfw0WXVII0uZWXSH3k3NswoBueJ7WcPan8IKjp4hGUvF1uvGCDmccnf4/m2bh8to9ptJrQ6mPWGTIwHffrYBm57IjVaFWXtVdlamVYb905NYq0+ZcUS13xywD3O60zAITOTBir0rAzf9MjQM4p6JWsZux7ix0vUuGfDjEX436ubKH7wmfQSNOT5OV2fvN6lpLVPkHH10D0/lMBUuDpr43dfxOu+KiDXD2i0KohPHzM6iaUVzywZnF4ILdGwWi1imqcrHmKu3OrSDvrir4HDfEIHMBRHTObP/6Wd17/dwxg1INDsG35RLUh1DvZGSL4Q7SPk6IYa67BLU1hNjaAQOwniBjapOrWGSt9ilF9b2HHayYigFJFepneXvRRJNUM1qS1XQV/S10kzTh0W0kHGKTeGJ2mXpjpBGIyniLW/GvV+gN5vbOxlUp1lHHDI8Q+IGSGDBP0arbKZ37zcEtivpyxwssdKPK0nT6BzQ2zxSS8/fcUa3y96E2IBxmwSsljCDv51Nxn80J+zLP58RhcS2bbgtIpSt6op7nXlvgkSHG+ugLsNI46RkJ5q5Bc7225gh/MEtVUJf3F+Au7Qelh+at1tha09chUqISRlQ6MLDyoBgQPGO4M5wvK+cRQ5Mr9iFVVDTn/Lzk+fkn4Au1Sl97+U/VuFGWvCjql18g6XJc1DMosXO6rTeUQl/+hj5Ux7OKG6ahmhbN4ncpiFkH1jsfbXRd4vAQ/DZXUDqwlIjofhTelf7WyIhMETVl/8q9/VAaJ3UTaT0CaFCnuag0Oj6bHxSeHJchQbYHbvgBwSxY7bxGozgS3krwTfsYQftuqhp1lcp9FLEC4Y126kCLpKE36s9VUPvFvMS4wtp2Bia7Pb9tfIqcpqa5w4xDjUedPLIw/i7HEv0ezc/bbx7zz2q+FFPylQyosDjAGNzLQa/jzawt3TODDCsr9RnJQp5lTgtnA70W9comqEPWeg3EL6yXlGFb0MIFIuSdvXeUaNGqlyY7VBpdqGH+HReC9G4AzSVuIXhtHFoLB1JoX0jEFPRoM6OoUMmKVCg3hUgTe8SUvtoqe/81cdb6XI5embnnSE7ItzeiTLIG2PbgbvX3kIchLCYtPbO9bvoh+HhS0vtKC/wVKWbaDG+H/uoa+6tAEhOpgcPaBBxgNQseDlUaQKJHh/PMZcbhgqe1EOx2f2Q8xKZj8vptCZc+n4x8x44phiGfzD5CLcCKbXNR6tvsnaYj3MrmXhawS1+Gb2pqNY3gX+KEAdzH1Do8EpdgMfWYSbCnC7bYPZv9bvftD3IWyPmHcPi/e+Q5c+mm0SwZe4MHutnqT2GaUN9qFGKjdNaF+oRBFWQZWdZEV22KuBKmw7zNOLeZLFNMHmarVL8kqZ/WWzA/Wjo0ZxiOUzKB29YJhvjiD3eSjr46W9ERBNngYfm6e8XDFifZFDAVsT9tQSwnSZ6pLc+MKU70IEIQxWm7ay/+BZJ/LJihAKzapixjkW20mspTG4btgNbOg7Lso+dBgDR9+E0wpks1kXz6eKfA16WGEvi3Qxh1EXJnGSKv7oaiMqiipNZjQLB8GoCFLA7p2PyMK8VUfirUHKsRaj+M7c74qKTAc+mOyf6/WNZzB/QlowLCZUr5SVNZLcH4CX4lE15vOqaV6g/YE53I9Pb7IBb9+Dps85gurEmKLcOXgdo36t9sS4Wn1Hb5vIgtHH2FtjRZpihEFw/FWUNMpmP04/UgByU9hyciwNHCVZ/gH7FXh/rWb3E+akPwzyb6iStchEGtyjPAcrL3Z1xtIIQ/8SUjX07QKLdQSoi7MxmF8iWaSaV3PeS2PM0HBHsB6+DnHA2COUI88lV3fPROzT39wG/aybhEQjxa01rTYmZaLZ3FmMP02k0IbahjTXltu/0iKUISmNrBVnnP4reJAn+DZYsGS1Ddw9RGvckuFCQCyPc/4SdGZEN0FJ5oFpyzveOBHEMws1+9p2WS5+2TQoBeE0LpQoPANufQmAa/cnmCug5KXoyOGos0ppsvD5JtY8Ax2n8WcqVt7DDduFE1SAtREJqpkDdMSHYisRTy4eyIH6RKwpU00SS3Ai4SZ9K69aLzonXQIOGiBOxCTSKSWP9HfMGQCCYYHmJcU3V65mOPVXfZ02xXa+JQ9UjO3JokApRHwCoFZtHfdk2VsOHD7fraBPJ/mdkr1CAz4b3E4t0BjYZfg8DMxN05A7X8wddQYAuk+Crq3IvVGmB4kNcpVtNkqVaUr+xxl5lIQIA2XYHBcfXQU3Oi0kh6JnP8qw4s2V3wCVND8zWSxpGw4cpn9NTUG+M//ogP09rl+RFkkBzuzPnH/8WqudufTx7vtopLHXPDfNiRuAPh4b23qZ592/7L0PCCb6LdO+NekJo47rp4G+hwM7fY/7FAnE3UK1rDc2bp1fuISWsm3DwG12+BPaVrFNBTSLou57CEJrUgUDp/tXQhbiMhjYCxegtVpDgs7zno8qzoH/meLNRd+h7uBo5KSN9jWIKWKTlVgiSHzRHlQngjXAwgvSFcLEvLleT72K3Ik972K5nkiNB3hzW3tnrbUOJdjiEmB9/zeBZrNFMfhuucUTPHQa2m4wNVMh2lwU+Mk7uIVnq6Hd4IVVRnE/LuMdmWX7Rc+CmKSuRMTS1tmVX3r2D6iFLDBenU9atvuIKDV222gfTAzKtr3RLCeiVe7SxlgIM6C4tNPZHoX91svT19M5hN1Ga7kKQAGIMnRuVmWmZnEG73nlieAWxt7e8U09QCXhYfKuJcIiYSOkeAbu/ZqGyqMmiH7wLWzhVaD2MMFtfOrmLwjKQ0vs/RWzSV0JVjDZtB81EORK1qQiGYkf64Ahh9RHJtcAKLXqs3C0DrTHrjT6iJdqqETrzwvqt2/vE5BYFIkZd7djXIokPzvC6Y5nQW3ECgaB4uocPfhZqRJM0ZB02PPMlrBXyvTlsEx3CVx5kOALE5nApMHLyHQa2yYym04K8je2qBz3cM8g5JaKDRa5R5Mk0HS1s2c71It2lUlTEy16bPhs2/8qNdZgqJMvSDXGwHoRco10QQDO/RyXs6GnLdGhnhFRCAJpRO0vdTF23sRXYvwKl4D+/i6VjsU1hnvsQ8JBiOrmaKY6gBHikoGnHH0PPIbI1eeOj/2rwTNVtYjfxFfpXRec6g8SUAsM/RZVGNewGKLsR2wobIP0VN/DbH/dDjzKecJHQ0+XeT+t96kVGgYkx+Ygu+hKKlh7xh+AMVWSuVeRwmgJ+axmqG8/W8tUNcxiNXb9L+xoNxP3bdi3zo7WDDpf0rzesmnSXl7EYYmEXUsvoH7DNHysOmfRFqQe6Yg8thWsg+J1xNz19ylu2EMmi6PstZEqZCVSmRmE4Htak0YVdLjCYDGViK0BPHpqYM76vIu4oScoG2t8KTev8M6IPBTFV7fGLYaKXfaykfma3+fd2Uz1ENZoO3pZLPGv+jC8atQSnT/0v4pbNytiFxPC8HmMnL5D/F66Wl/T72Trr6Skpy83bpB6XM4Jg9VrVPmm1Jjydm15UxhIGUfnvuIK9BWPHXMb/w69QBF37Bk51B7yVt1ixtyW/751eZFVtU8IYYDdQ2gouU24CxGpfddTx3Y5IR8tlqZkYFfeJRWAJ34qHBO4vhXySylvuQtjeQlQjBfJv6A6N/cnvAVLSh/VCXjIDO2hzHli6nw3XYylThIyAt9lHMJCRtwZnqHhyAMLNBYdYp75onsUxkiZdIhygjJ8da6VOxDUd9b+Sstq9zQ63RStTMZk82lMazTZJcGrxMu3iWhS/MRrJY7Gq/mzGL8tfdFQiOjJ7JTOL3zdHr8hXvUpPFhpvBBr79zPBXepPCesCZEq0vzSBuTE7f6YeSpCTej6wXJPrdHQwB0HlmBAdZaQOL1pDIOQspwzdtcbFZUQSdFao0W4NbA7xisHycNw4IhLP1k5Vn6ODqKWOP+fMD8+Tg5P5rtLZsYreUnhOQ/q6cVFyuIAlHGnbcekWK44nfTtUdTFhWr3ebFPc48F9vmyfz7HTZmhIt8w6y48TI2cDAOnSHhepeCRFdfI/8vO34bmwigv3a2YqGO/ggIQMDK0H8oIS75vN4r2J/8075GGs/wCDNPgkTQQ8Mzt1W19MHlbXvb5TEbPJjTLeTvmC1SRJID+vGR6mqDSEEG6+7cLUAIPo+UdO/PTn/xIvpBiX3nr37q0TOnXZHbMUAKpob+XRYT8y+lUNIQWdClgVI7n1EWJ41Q8yh2M+WD4JjuJGan1Sg5fe1mXZcCd2CCle2KvV5gs7wcMysClX4NXKPLhCE+emoxuRLTtMHEksFzKKRWUrXKiEVIiiPtydsuo3YGXezTEGtfZXR9NXjU5gEHqHjo5OsJ81JbQkViKr3+Uvkp+WV/iQy9de3g+GWOBm6Y+t4RFIKA6UYlbMAitc7h/v70HBYWj1qimPBR+aJYkJU2bHZNI4ksiaUzRI7BmoZCbU55l1jSpEF+PQYEYQ252CDh5uXua7Cu7QZouSqwpLQaav3aSKx8OoV1/TyVDnYtmgsy8M72KXy6d/ru/ISkYuI59FrvBtmDE6JlSIsmrLEgM5/DlXNutA0Bjui8bDg7PZZ3UgR8eDMOuR0A4b2OddSkcgEAFwCbPEgNujppRh049zuoNAnzbT/ULIU24NDzPJmuD4fDkbZTCAPM1SVvIK/bsNIEjEaBMiQS+RgemaBU0WXIVolMw0dmjBZENqN0V/ip0XQZiPVx1joCwijq9PDOwSvqLKXI0joIPOF8RumbvA8fnvi5HGFp7ygvn1nqOOxuLjrTRcUx4as7FpZBadxTVknTbyu63k9lDMF304FeVhjspPFt/PNMLGz/jGNU3sq1A/G6aiE6lTSRa/FXFuEQ7Uvk9+6G92mt66VGWcZYEkY+ERdcRfpDTx3hupdTUitpEDi2V0foWatpObU3zPsYvVFeqs/cSVu+6te1gONjSibEYT6AGOXAgY/za5MbCfs4mZ1PWQFO/3kUCsjxdG9lEGG41+dVhPlvIRPDpfNTOImvR2PCp982T3PE5h5eWc5N20CHfAwme9JGRHQdh28U/4B/cq19+1MWkQ7skhvzblv3YgjyeimeBSX+J9qydlNjCmctG+IoC0AHivuXNS2Zph1elyuGVAd/HLWUrwJnvqgMieMCsYYAfYtEUKxTd8iMqJs25/v0dbGI+4P8cMkbI/sVsn1wYefBEYMjHjYJBRypDfhflMRewxvmAjIrxYpwyY65dBC/F7AfE4mriZXhN/6z9FBOQRi++Kq2P9eQ6Q52oSikcmXgfXuD5or7+9QIIhfrDUEZhTNbPRTw12xvXXCTra6OCpNNtYB0sE7yjAf6j8HO1WAW09W4PdPzah5qeWucKPgU4ViC49Xrwj3UmRtcD6Maq3dXf6j8Ve/QO7brawFBXmsrPjedzHxNbMbNWkqhpPXLJ4Cm2h3CoqaHU0nJwMBmQZI3Vws8L1+qrH6HX+huasrXoZv+9GWt646o1KybZrhQR8BoFkdnFKi4CCUDnB+ONlTHqdiGBWuXALWCuXIVE6WmuEaXqxjpb1uGifT9F6oSp7KTCYR8TZnJrzs1yrTfC603NK/W1b6U5keb2R4pDE0uiMDLqzvgyK44E5NsYPrSNiahwCp9evrpt047/LK1g8i8oOesROpuU5bbRgBlxUKoZHxfn0zh9Emk/ybhfio5LET8OZqbPH8stdsHvy1oZfeytIst7ZKRBpC3QjjazIGoeta8cI6p2Fu1jTjd2yVUfoyZyoG/92y53SCWau3dcRBhqwNzZBqM6oOTF9NVjr/KXvsBwV1fK2rJYHTHossXWGddaKwdpzve3/mZwuI3rK9D2sUS5/s+3RMqxmScl1ZK9ac4WVNkw55wAqma5BNtB3lmTL840X9+8TTSjstDaYQWD2jkZXdFXTmev6zQfe9bKTW0s9FC/Ge4dR406Id/3BY9pPuh6g7+GPezSDsqiBsBjlo8F08bcwAuBDlDTHKfRxRlonlUEf9DjmV3FPVjdwSmSuAMQylFGuQH2O05QAq3ZavrQL1jxjR82Qpt8dC3HVmz6/oM6bf0wuix1YXENzoOFRfVXDEy6byWqqGj8K34hAI13SZmG3LRvBrH4vVrmdAZL+DfL8WT7xsBjyF4M4QoBb4EIG5OojIzh4hknykhE5WK2Rw5tmRJcPFHyy3yqPD/9MsQBZOY3vEavGMWE+hWlyWx/0r5nJmk4dkJGtJlZRGbOAEvYVoGEVjVf6VUY7W6nxfo/5inzK72dGqw84RCMCbeze8P3c6XJuN79uNNF1ClKYlc52hSBmrJYbRYZoTFklKahaXzl6wKOlzoJeFc1MicP7QYk6AWpbX4lJN/zFnelfEJXUxAKr7Dt/yU8xbeUn1X0xxaenLBOidyWqmsFiGfr3TZO8XnRDgB0WOBsMvw/x8UvCD+N97T/JwyAu6jQ58aqH6ib9Ih4wxEeFNsuUjRASq8Zdga/Cik/gTIyv9JLrDxRDW0j015MuXNDv39Z/2gWwHMX34zu+PV8DJ/UduB8jQXAYKrztLKN4gvH6yXyj08YEUAhQKjAuYnao/Qbo61OA22/T22z+zfwSbo7FR/J0uZJJQiQ9sme5wBJAbirk0XmygbByPO/Nc5OCSlp7cJJNUd3Cbb4QONUUq0CS9BxM3KkyA0+2RdpMwzjICSofrMyvLa5fgiTysVkzKqeWFOa2faxu8RvKCW5q8ZFBK/IrhsqH9y+uNihzA0lpssEM7L10Z1P1cB5I0OrRvm7Qko8Rct+kvlvRLA8SHWT6zjODiqqfv9798PJF1I85rdaK0BxCmRmB5Y0opoaZT1lPpR+St1vcZGfS1ZnMkKNNvVza5V+US23p/u6XOB16/J4WofnH3DH0IftM3kE6neniL8YCzjGgbKQHdd2MD6RnLuWQjBwRZxVdkSMxkK0aELtxZ19NZxkSxBKzfzGqpKhsqwyA5RMSkChLVHab05cyMMi5j4Qp5s6845sMmq2uacER1jPcK02R1nn0CY3SBINId7gEKANW2MuDctW8zz0Jwr7rE+d/hNa9vyEjgPaE1eTBSN4kRWXbr4CN4Qy5mXdOIFb7CHAaxO/fgCTxN6o3JnDa+jjf9hZiNWPtUx0Nrovxx2bEiPMzGil68jyc6kNv1vh2HhjvilwpbAbpIVJUlgKa5XCBMw8LDWJzX2Bpj/B+gBn0ceY6mbHkx2ssrnokuvbmYrZWSrHsxO53xy9PKpK/GHcnvHly3+l4yKbDp9VxTH0fbPXPFTEmdCuB74zgKppNfvIu/ImBiSB7Q6ifIz9Z8zflfOkE1OKeFmfhXHdQnRYFqmqw/9f2kWfPMOXNBRX5P6V0LcZX/SQx9cWK/kVKPB+oGqmUONkgWEmzAE06JaeqLp3RsWl7KukRT61wOTwKc3Eotf7e1/J0sHtpEWDnUwzfNn9IjpfnvrzIXdurbmsmD6W60R5c1AQJPQ8pt0LrjVVUSSDKnnEsURRzM22JvbcUAPKQ7yHucJimeq3pn3bAJzWgn/CAHRT68hsbClRQ7cCKJK+ENIJwNrq2uj7U5ZZD98IyCwBgnjG3nl7/qrH+qkyELnG3cBugOuCh2CbTFG5mOUi7Bwd3qfvf73X1Z38PW4lU8/oU2FgZDuOEKoJGsU2kTVkM5njwga1t4wyEtqUiOoJkKxR7yNzDaR5yeWbgcMoaGpSOVy3+Xg/QGJy8ESnJElbjIFAofc+etgTLFrwwzDLGJkncM4J0aw0ScKba0dyzE+h9pzh+pWcm/iIeyP6feXIhbBbGupmTXD9WNO5ftHtTanoV8EK5wYktWE/yurQw5QeaCtKsnpIWnYZcK0Fh/hNTaz0hWoWmJLekmOOJD5epoemH0XVED9lIiQ+hUrNumDrbH0wSUGSZGwEHB06O7aaNf/c40AWe+g84PAv1B2TnAq4AlU7Wl3ZK1WaVLf3njyUCn3/M06BUU1CePZ5pBgzvYSsMYHxKLjzWfQ12SzfSRgRio6i0NH7lgCKtnVj0rC+JSngQ7fzf0W7tbOBNNqUcXh+W3Fzko03Bxz2QseY2u3Ka88Y6y6srrtaO4aW8NHIOleLkmzQsuI9VnTwPTNCFVWacjv9f1eCBP9N0OggbAZiUEquGot85o9IeAhUVYbEty6apiKbiBP5pclyWyAmbNhxNyxjesm1T1NIzkUkxg53sWqBp/Yr7g6umUUBUI1Lq+5+BkhRscrApBxP2y0dfuHrpU5aubBjCTh4PsRydN50jrdxm03y3eXsXDQN75WyNq5ev5VHiP9vmQ+J4j4ivB0Ch9waGhWCmSTB2GDW3aoSDio0zwrxVpJQG9sc+TOIoPjfLsSBTrue8949XToilx8qCsPoyuOPkl0AA1NCdf78S0nbjHdaZdtdmDKuOvXrcxhNkzd5MrqTaldvCbX+CoJzpwSJQ0npSDeN0Kjyzo4XvjsAfUj4YRUlzkDjwts66oDqdkbSz+uQ2pjdYRyZmWJTMb1t8KLAu7hcUUQQ4nE/G/sY1YiVr6gVzSrw0kxTiBVCt82K9hJscp6jIGNW2ggFylyxVU2vbffn9Hs/5Cq69VhTnZ1DJIOL3PKrvL79159M9O3StecibaH7oSX/ismGSk/yFvmDK8lpmrYVbWHvI650igKW3UzixRbpOFubNaEHWjVcdZONSrC4LevA1QEFFL7SSV/dHM8myeLBLuua3uNs2VwZ5YoVsC84dUgjKFB7jC65/T35cMA6PwRMCBby5pNqtff/xfsm5rAt4UMNtJI87aJqqQvfu98r23hhP6enh93+n470Xsx+tE3eKeUFw41feVLcV+0OiJhQJ+5fnmgwa31v+fkb44KM7MSjLY/eHiif3jw0GF1+AJyt+e4qsEnx/s3oKw3WlXStvzeURRSM5/43vkCb/7ZfF1Ou0b8Yd7U9TSgohSMvflHTLQrYWXXFB8AjYS5USfCMhsNvvpwaZhnEFa8613QkTUFq7AZGxDKc6YDyqZz/714FzV4uOptn6wRB7N/PpkjAE3SniYseH7+O9qHEFcUcewXve8m4R3903sqGeV/WMRRAv5Bzjmc0tqqivg0Buqyi89gjG7JrpomknzoRc/UYSsiPL+VXG36sWekEPFAVgexBj2OcRhRMpCSOtcrgUgCeWCmWRB547gB1HKNlTh61iy8XZNPBsD2YqeB3yCNJ7ozLWNugkC46zwDyNgrs3zMj/sJ0DW6j4fwjVtvMHzJFbid2hsIsZBdyjbEyZsacW//MHuxaykTgOFMDuzOzFfWV3NEg+8hhqZEsHsszcYaXVdD/OG3di2R9AYDoRMhFB7RkSdSHIQUEXjDHz35M++meKzXx6jsuviQ6TuoJFZeRlReDrlPNCe4ghPL9ufJz5Kx3MdYVUoDj6ths6ddch3hz6ywIGLrElLjjHlXDmtQPFuuxv3pF1eY1WkRM50GK6R2SyA1FTyQprgVVHpFLlwPXxNONEEaMSqiWVwNdG39pGpHks7vDHSzsGIXVQu9uSE35RTQhp4ONdwnGsdBrCVjfdjR8vHy7Lui+BWHKL/2za8y9nBOfedabcrqxr6RJ6DL1g9/akE8jMfYuMtJnO5DWRkhxEO/H2iYaG6At7Tlh/hMteQyMRcCqd7/pZx7UH6cchBbIO7+AIPMGYBF977ylMklcdUpRlThTk9EGZ2UeBiKZ7Pt5rydZPJUR44McCSNGHSPXwa/rNtvEQjIUXUlGOJJ/w3OuQmRBt+zd8eFwdXpI8cj0spfd19GCO1Ujt2XFA0VqoPvX4wxzfmyhMuAZipupzd9ytKUZatDEfoslauR0c2905jcxwHJNUR4eiaLMTHUmOVx2I1HPj4jdP+aQI761MvqfYRbxnXR/+h9JLtMqdXXweujSzjdFbtT4dHo+dDnnktE+fZYYC1C6lyM4gK3R87k5cFXKhOQnc5z/vZOHcbGz6L+Lwnk1VceShe4qd5RXSk8OnKKH5lEC2F2zd/BdYRwjo9dH1qEmq7eIRKHVAE0d5P2QxbewRvUeObe92JCSx0oUrQDrKHBgkdfzZxJaV8YqjNTQFs6pj1p/WvuRCuajfC6kiJ9sfvTvDGhkWbxLErBQ0/Uu6i753zv6gMgYyVm5N7KZsoZ6CyMQAICGKHuF7lc4At3/ZLCPBwl+FMe4LVy+ddaVMRs3FNxFugzIR4dGx55lGkW/O0HNtf6R9VgrM7WervG51+V9K4+dWqb+BxzYnBqf0OumAzrZFSHO9WHM5rZo7NX+lCZA6h5inlQ+flHMrM+w4bQhZDkRYRDqJqYhjbFkOsEs7ytGzgDSCFY5CfYQa4NADmjf/CmUN+Tz1T8fBMbZaHtnBkpEtcE9MmYj49eQPM4HcW3J959EunJMaag4+MGCgfQUlgW82Tg4L/syZ6maieXCKxWjLBrJq8ZN5KHvUyyW2XkHmaM8SSHk0HJr+Fw0wGoZWuyEZaAIhpC2+/dS6yf+3sDjv5OCrvIR+aWG2JyEne9LOs1R8jJLpV3cqWv/r93TrfNYxEqRpE42bXR8g+AAHh7qmLfuMj7RZHbhPn3RNXELigYI3ODEHvZjjrrUb8CECUFtK0q32aPhlRJTbp7jWwhDkTFtPTXOZfJf6rQUruEfSepchn2zG95nck/BT3BFaUGK6Zhxpr/94J20tqYpTxp57iKx2aD6ZWuNJFgWbj9B40U9MHrXWKa6aGAAla+UTjDgVQt3h+M2mATe1SawMJ0H4kRTNtUOy9ZmiLOYnTiNCwhWla9z5bdRj2IR+FgxQMDTzovmvD+2XR/4q1qsJm+Vh3+2PiWBumf12rxm3rv8bgnsMYvJNZGplDhYoN8Yvu9G/lB/vZmO42VfDM6rxhRXix1vuiw2Ftg6utZyk1Vu7ZlUvcAYNA2Tsrm9/sEeT7g6XcoNC6bIgMFSFFbJaC4bmiAHeyyxzAow4u0AfULzgnHhQGcTkS/RUKWIlOheLKfPmN/AzHr1DUaA8iPQXMy85Rl2JD12TwQ+6KjmWvLGUkTSWpqTQxLi4wK7RLcsUDlMjw==" />
+
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="vtLDBVBZhD2BWaKHucx/b1k0XmLAKCEid9DdQObXXdUJAAnMM1DZplc19K+gq9XfLOfpgNXCJNNj4h8gH9MvkJ5dG3IY4u/i5KkXkIHEA2LzLjbi" />
+    <table border=0 width=100%>
+    <tr ><td valign=top width=100% >
+    <table border="0" width="100%" id="table1" background="/sch_data/image/a2.gif" height="118" cellspacing="0" cellpadding="0">
+	<tr>
+		<td style="height: 128px">
+           
+		
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td >
+                        <img id="ctl00_Image1" src="image/a1.jpg" border="0" /></td>
+                    <td colspan="2" align="center" valign="bottom">
+                                <span id="ctl00_admMsg"><b><font color="MediumBlue"></font></b></span>
+                        <br />
+                        <input id="ctl00_UcLoginStatus1_LoginStatus1" type="image" name="ctl00$UcLoginStatus1$LoginStatus1$ctl03" src="images/sign-in.gif" alt="登入" border="0" />
+
+                        <br />
+                        &nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left" 
+                        
+                        style=" background-color:White; vertical-align: top; margin-top: 0px; padding-top: 0px; clip: rect(0px, auto, auto, auto); height: 50px;" valign="baseline" dir="ltr">
+                        
+                       
+                        
+                        <!--自訂Menu-->
+           <div id="menu">
+        <ul class="menu" style="width: 97%; height: 100%;">
+        <!--選單一-->
+        <li><a href="../../../../../sch_data/default.aspx" class="parent" style="left: 0px; top: 0px"><span>各級學校</span></a></li>
+        <!--選單結束-->
+
+        <!--選單二-->
+        <li><a href="#" class="parent"><span>報表統計</span></a>
+        <div><ul>
+            <li><a href="../../../../../sch_data/reports/repOfficelist.aspx"><span>校長主任列表</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repOfficelistNoTel.aspx"><span>校長主任列表_不含電話</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repClass.aspx"><span>班級數統計</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repCountstu.aspx"><span>學生人數統計</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repspClass.aspx"><span>特殊班統計</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repMemberCount.aspx"><span>人員統計</span></a></li>
+            <!--2011/12/2修改不提供這兩項數據
+            <li><a href="../../../../../sch_data/CrystalReports/crpt_sch.aspx"><span>學校報表</span></a></li>
+            <li><a href="../../../../../sch_data/CrystalReports/crpt_schtel.aspx"><span>學校電話</span></a></li>
+            -->
+            </ul></div></li>
+        <!--選單結束-->
+
+        <!--選單三-->
+        <li><a href="#" class="parent"><span>學校專區</span></a>
+        <div><ul>
+            <li><a href="../../../../../sch_data/UserUpdate/update_sch.aspx"><span>填報或修改學校資料</span></a></li>
+            <li><a href="../../../../../sch_data/UserUpdate/DownloadSchTel.aspx"><span>各校電話下載</span></a></li>
+            </ul></div></li>
+        <!--選單結束-->
+
+        <!--選單四-->
+        <li><a href="#" class="parent"><span>教育局</span></a>
+        <div><ul>
+            <li><a href="../../../../../sch_data/admin/schmenu.aspx"><span>資料管理</span></a></li>
+            </ul></div></li>
+        <!--選單結束-->
+
+        <!--選單五-->
+        <li><a href="#" class="parent"><span>學校使用手冊</span></a>
+            <div><ul> 
+            <li><a href="../../../../../sch_data/Manual/各級學校基本資料-學校使用手冊.pdf"><span>使用手冊下載</span></a></li>
+         <!--選單結束-->
+
+            </ul></div>
+        </li>
+    </ul>
+</div>              
+<!--自訂Menu結束-->
+
+                    </td>
+                    <td style="background-color:White; height: 50px;" valign="bottom">
+                        &nbsp;</td>
+                       
+                </tr>
+            </table>
+		</td>
+	</tr>
+	
+</table>
+</td></tr>
+<tr><td valign="top">
+    
+    <div style="text-align: center">
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 95%">
+	<tr>
+		<td id="ctl00_ContentPlaceHolder1_td_detail" bgcolor="#ffcc99" style="width: 99px; height: 19px">
+                    [<a id="ctl00_ContentPlaceHolder1_ButdetailData" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ButdetailData','')">詳細資料</a>]</td>
+		<td id="ctl00_ContentPlaceHolder1_td_sch" bgcolor="#ffcc99" style="width: 100px; height: 19px">
+                    [<a id="ctl00_ContentPlaceHolder1_Butsch" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$Butsch','')">校務資料</a>]</td>
+		<td id="ctl00_ContentPlaceHolder1_td_map" bgcolor="#ffcc99" style="width: 100px; height: 19px">
+                    [<a id="ctl00_ContentPlaceHolder1_Butmap" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$Butmap','')">位置圖</a>]</td>
+		<td colspan="3" style="height: 19px">
+                    <span id="ctl00_ContentPlaceHolder1_msg"><font color="Red" size="3"></font></span>
+                    上次更新日期：<span id="ctl00_ContentPlaceHolder1_txtsch_getdate">2017/12/7 上午 08:40:00</span></td>
+	</tr>
+	<tr>
+		<td colspan="7" align="center" valign="top">
+                    <div id="ctl00_ContentPlaceHolder1_Panel1">
+			
+                        <div style="text-align: center">
+                            <table border="1" bordercolor="#99cccc" cellpadding="0" cellspacing="0" style="width: 100%; ">
+                                <tr>
+                                    <td style=" color: #993300;">
+                                        學校代碼</td>
+                                    <td align="left" colspan="2" style="height: 19px">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_code">114657</span></td>
+                                        <td rowspan="5" style="text-align: center;" colspan=2>
+                                            &nbsp;
+                                            
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #993300;">
+                                        中文名稱</td>
+                                    <td align="left" colspan="2">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_ch_name">市立南安國民小學</span></td>
+                                </tr>
+                                <tr>
+                                    <td style=" color: #993300; height: 21px;">
+                                        英文名稱</td>
+                                    <td align="left" colspan="2" style="height: 21px">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_en_name">Tainan Municipal Anding District Nanan Elementary School</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #993300;">
+                                        建校日期</td>
+                                    <td align="left" colspan="2" style="height: 19px">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_birth_date">民國十五年</span></td>
+                                </tr>
+                                <tr>
+                                    <td style=" color: #993300;">
+                                        註 記</td>
+                                    <td align="left" colspan="2">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_note">正常</span></td>
+                                </tr>
+                                <tr>
+                                    <td style=" color: #993300; height: 2px;">
+                                        學校地址</td>
+                                    <td align="left" colspan="4" style="height: 2px">
+                                        &nbsp;<span id="ctl00_ContentPlaceHolder1_txtzip"></span>
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_add">745台南市安定區南安里5鄰62號</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #993300; height: 19px;">
+                                        學校網址</td>
+                                    <td align="left" colspan="4" style="height: 19px">
+                                        <a id="ctl00_ContentPlaceHolder1_Linksch_url" href="http://www.naes.tn.edu.tw">http://www.naes.tn.edu.tw</a></td>
+                                </tr>
+                                <tr>
+                                    <td style=" color: #993300; height: 21px;">
+                                        校 長</td>
+                                    <td align="left" style="height: 21px" colspan="4" >
+                                        <span id="ctl00_ContentPlaceHolder1_txtprl_name">曹麗優</span>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td align="left" bgcolor="#ccff99" colspan="5" style="height: 19px; color: #993300;">
+                                        學校電話</td>
+                                </tr>
+                                <tr>
+                                    <td  colspan="5" style="height: 142px">
+                                        <table id="ctl00_ContentPlaceHolder1_DataList1" cellspacing="0" cellpadding="4" rules="all" border="1" width="90%">
+				<tr>
+					<td bgcolor="#EFF3FB"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl00_officeIdLabel">學校電話</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl00_officerLabel">5922023</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td><td bgcolor="White"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl01_officeIdLabel">校長室</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl01_officerLabel">5922023#801  [曹麗優校長]<br>網路電話：275001</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td>
+				</tr><tr>
+					<td bgcolor="#EFF3FB"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl02_officeIdLabel">教務處</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl02_officerLabel">5922023#802  [蘇耿輝主任]<br>網路電話：275010</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td><td bgcolor="White"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl03_officeIdLabel">學務處</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl03_officerLabel">5922023#803  [蘇俐文主任]<br>網路電話：275020</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td>
+				</tr><tr>
+					<td bgcolor="#EFF3FB"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl04_officeIdLabel">總務處</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl04_officerLabel">5922023#804  [吳紋青主任]<br>網路電話：275040</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td><td bgcolor="White"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl05_officeIdLabel">輔導室</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl05_officerLabel">5922023#805  [許南山主任]<br>網路電話：275030</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td>
+				</tr><tr>
+					<td bgcolor="#EFF3FB"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl06_officeIdLabel">人事室</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl06_officerLabel">5922023#851  [范傳馨主任]<br>網路電話：275051</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td><td bgcolor="White"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl07_officeIdLabel">主計室</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl07_officerLabel">5922023#807  [楊慈恩主任]<br>網路電話：275050</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td>
+				</tr>
+			</table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    
+		</div>
+                    
+                    
+                    
+                     
+                   
+                </td>
+	</tr>
+</table>
+
+    </div>
+
+     <!--各系統諮詢網頁註腳開始，收件人請自行增加，但一定要包含service@tn.edu.tw這個收件人-->	
+	<table border="0" width="100%" bgcolor="#DFE1DD" cellspacing="0" cellpadding="0" height="35">
+		        <tr>
+　		        <td>
+        <div align="center">
+	        <table border="0" cellspacing="0" cellpadding="0">
+		        <tr>
+		        		         <td>
+        <div align="center">
+	        <table border="0" cellspacing="0" cellpadding="0">
+		        <tr>
+			        <td>
+			        <p align="right">
+        <font size="2">行政業務諮詢：</font></td>
+			        <td>
+			        <p style="margin-bottom: 2px">
+        <a href="http://epaper.tn.edu.tw/edmail/"><font size="2">
+        <img border="0" src="http://www.tn.edu.tw/2011images/email2.gif" alt="郵件諮詢" title="郵件諮詢"></font></a></td>
+			        <td>
+        <font size="2">‧( 06 ) 2991111　<font color="#000000">｜　</font></font></td>			        
+		        </tr>
+	        </table>
+        </div>
+			        </td>
+			        <td>
+			        <p align="right">
+        <font size="2">　系統諮詢：</font></td>
+			        <td>
+			        <p style="margin-bottom: 2px">
+        <a href="mailto:service@tn.edu.tw?subject=各級學校基本資料有關之問題與建議"><font size="2">
+        <img border="0" src="http://www.tn.edu.tw/2011images/email2.gif" alt="郵件諮詢" title="郵件諮詢"></font></a></td>
+			        <td>
+        <font size="2">‧( 06 ) 2130669（<a href="http://www.tn.edu.tw/readme.htm"><font color="#000000">服務說明</font></a>）</font></td>
+			        <td>
+        <font size="2">｜Copyright &copy; 2011 臺南市教育局資訊中心 All Rights Reserved.</font></td>
+		        </tr>
+	        </table>
+        </div>
+			        </td>
+		        </tr>
+	</table>
+    <!--各系統諮詢網頁註腳結束-->
+
+</td></tr>
+</table>
+                        
+    </form>
+</body>
+</html>

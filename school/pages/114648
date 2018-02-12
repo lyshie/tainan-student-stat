@@ -1,0 +1,346 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head><meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">   google.load("jquery", "1");</script>
+<link rel="stylesheet" href="js/jquery.autocomplete.css" type="text/css" /> <script type="text/javascript" src="js/jquery.autocomplete.pack.js"></script>
+
+<link type="text/css" href="Menu/menu.css" rel="stylesheet" /><title>
+	詳細資料
+</title>
+    <style type="text/css">
+* { margin:0;
+    padding:0;
+}
+
+div#menu {
+    top:120px;
+    left:0px;
+    width:100%;
+}
+.adjustedZIndex {
+    z-index: 1;
+}
+
+</style>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /></head>
+<body topmargin="0" leftmargin="0">
+    <form name="aspnetForm" method="post" action="sch_detail.aspx?sch_code=114648" id="aspnetForm" enctype="multipart/form-data">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="3nSnn4QbExqqVZpvLkbogmz5Nw308K5slVyGhkbA3eNDVGugheGb2FOE5oZkX0LuzlwHtQyoiyeIfF6KQRhn+nBRXMOuF/BbtBQXvChcL/t8Txm4+OWRemzL6OlyWZ+oyiq/uQ==" />
+    <table border=0 width=100%>
+    <tr ><td valign=top width=100% >
+    <table border="0" width="100%" id="table1" background="/sch_data/image/a2.gif" height="118" cellspacing="0" cellpadding="0">
+	<tr>
+		<td style="height: 128px">
+           
+		
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td >
+                        <img id="ctl00_Image1" src="image/a1.jpg" border="0" /></td>
+                    <td colspan="2" align="center" valign="bottom">
+                                <span id="ctl00_admMsg"><b><font color="MediumBlue"></font></b></span>
+                        <br />
+                        <input id="ctl00_UcLoginStatus1_LoginStatus1" type="image" name="ctl00$UcLoginStatus1$LoginStatus1$ctl03" src="images/sign-in.gif" alt="登入" border="0" />
+
+                        <br />
+                        &nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left" 
+                        
+                        style=" background-color:White; vertical-align: top; margin-top: 0px; padding-top: 0px; clip: rect(0px, auto, auto, auto); height: 50px;" valign="baseline" dir="ltr">
+                        
+                       
+                        
+                        <!--自訂Menu-->
+           <div id="menu">
+        <ul class="menu" style="width: 97%; height: 100%;">
+        <!--選單一-->
+        <li><a href="../../../../../sch_data/default.aspx" class="parent" style="left: 0px; top: 0px"><span>各級學校</span></a></li>
+        <!--選單結束-->
+
+        <!--選單二-->
+        <li><a href="#" class="parent"><span>報表統計</span></a>
+        <div><ul>
+            <li><a href="../../../../../sch_data/reports/repOfficelist.aspx"><span>校長主任列表</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repOfficelistNoTel.aspx"><span>校長主任列表_不含電話</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repClass.aspx"><span>班級數統計</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repCountstu.aspx"><span>學生人數統計</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repspClass.aspx"><span>特殊班統計</span></a></li>
+            <li><a href="../../../../../sch_data/reports/repMemberCount.aspx"><span>人員統計</span></a></li>
+            <!--2011/12/2修改不提供這兩項數據
+            <li><a href="../../../../../sch_data/CrystalReports/crpt_sch.aspx"><span>學校報表</span></a></li>
+            <li><a href="../../../../../sch_data/CrystalReports/crpt_schtel.aspx"><span>學校電話</span></a></li>
+            -->
+            </ul></div></li>
+        <!--選單結束-->
+
+        <!--選單三-->
+        <li><a href="#" class="parent"><span>學校專區</span></a>
+        <div><ul>
+            <li><a href="../../../../../sch_data/UserUpdate/update_sch.aspx"><span>填報或修改學校資料</span></a></li>
+            <li><a href="../../../../../sch_data/UserUpdate/DownloadSchTel.aspx"><span>各校電話下載</span></a></li>
+            </ul></div></li>
+        <!--選單結束-->
+
+        <!--選單四-->
+        <li><a href="#" class="parent"><span>教育局</span></a>
+        <div><ul>
+            <li><a href="../../../../../sch_data/admin/schmenu.aspx"><span>資料管理</span></a></li>
+            </ul></div></li>
+        <!--選單結束-->
+
+        <!--選單五-->
+        <li><a href="#" class="parent"><span>學校使用手冊</span></a>
+            <div><ul> 
+            <li><a href="../../../../../sch_data/Manual/各級學校基本資料-學校使用手冊.pdf"><span>使用手冊下載</span></a></li>
+         <!--選單結束-->
+
+            </ul></div>
+        </li>
+    </ul>
+</div>              
+<!--自訂Menu結束-->
+
+                    </td>
+                    <td style="background-color:White; height: 50px;" valign="bottom">
+                        &nbsp;</td>
+                       
+                </tr>
+            </table>
+		</td>
+	</tr>
+	
+</table>
+</td></tr>
+<tr><td valign="top">
+    
+    <div style="text-align: center">
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 95%">
+	<tr>
+		<td id="ctl00_ContentPlaceHolder1_td_detail" bgcolor="#ffcc99" style="width: 99px; height: 19px">
+                    [<a id="ctl00_ContentPlaceHolder1_ButdetailData" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ButdetailData','')">詳細資料</a>]</td>
+		<td id="ctl00_ContentPlaceHolder1_td_sch" bgcolor="#ffcc99" style="width: 100px; height: 19px">
+                    [<a id="ctl00_ContentPlaceHolder1_Butsch" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$Butsch','')">校務資料</a>]</td>
+		<td id="ctl00_ContentPlaceHolder1_td_map" bgcolor="#ffcc99" style="width: 100px; height: 19px">
+                    [<a id="ctl00_ContentPlaceHolder1_Butmap" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$Butmap','')">位置圖</a>]</td>
+		<td colspan="3" style="height: 19px">
+                    <span id="ctl00_ContentPlaceHolder1_msg"><font color="Red" size="3"></font></span>
+                    上次更新日期：<span id="ctl00_ContentPlaceHolder1_txtsch_getdate">2018/1/2 上午 09:05:00</span></td>
+	</tr>
+	<tr>
+		<td colspan="7" align="center" valign="top">
+                    <div id="ctl00_ContentPlaceHolder1_Panel1">
+			
+                        <div style="text-align: center">
+                            <table border="1" bordercolor="#99cccc" cellpadding="0" cellspacing="0" style="width: 100%; ">
+                                <tr>
+                                    <td style=" color: #993300;">
+                                        學校代碼</td>
+                                    <td align="left" colspan="2" style="height: 19px">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_code">114648</span></td>
+                                        <td rowspan="5" style="text-align: center;" colspan=2>
+                                            &nbsp;
+                                            <input type="image" name="ctl00$ContentPlaceHolder1$ImageButton1" id="ctl00_ContentPlaceHolder1_ImageButton1" src="photo/114648/P1060034.jpg" border="0" />
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #993300;">
+                                        中文名稱</td>
+                                    <td align="left" colspan="2">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_ch_name">市立茄拔國小</span></td>
+                                </tr>
+                                <tr>
+                                    <td style=" color: #993300; height: 21px;">
+                                        英文名稱</td>
+                                    <td align="left" colspan="2" style="height: 21px">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_en_name">Tainan Municipal Shanhua District Jiaba Elementary School</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #993300;">
+                                        建校日期</td>
+                                    <td align="left" colspan="2" style="height: 19px">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_birth_date">民國七年四月</span></td>
+                                </tr>
+                                <tr>
+                                    <td style=" color: #993300;">
+                                        註 記</td>
+                                    <td align="left" colspan="2">
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_note">正常</span></td>
+                                </tr>
+                                <tr>
+                                    <td style=" color: #993300; height: 2px;">
+                                        學校地址</td>
+                                    <td align="left" colspan="4" style="height: 2px">
+                                        &nbsp;<span id="ctl00_ContentPlaceHolder1_txtzip"></span>
+                                        <span id="ctl00_ContentPlaceHolder1_txtsch_add">741臺南市善化區嘉北里12鄰280號</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #993300; height: 19px;">
+                                        學校網址</td>
+                                    <td align="left" colspan="4" style="height: 19px">
+                                        <a id="ctl00_ContentPlaceHolder1_Linksch_url" href="http://cbesxoops.dcs.tn.edu.tw">http://cbesxoops.dcs.tn.edu.tw</a></td>
+                                </tr>
+                                <tr>
+                                    <td style=" color: #993300; height: 21px;">
+                                        校 長</td>
+                                    <td align="left" style="height: 21px" colspan="4" >
+                                        <span id="ctl00_ContentPlaceHolder1_txtprl_name">陳俊吉</span>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td align="left" bgcolor="#ccff99" colspan="5" style="height: 19px; color: #993300;">
+                                        學校電話</td>
+                                </tr>
+                                <tr>
+                                    <td  colspan="5" style="height: 142px">
+                                        <table id="ctl00_ContentPlaceHolder1_DataList1" cellspacing="0" cellpadding="4" rules="all" border="1" width="90%">
+				<tr>
+					<td bgcolor="#EFF3FB"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl00_officeIdLabel">學校電話</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl00_officerLabel">5839343</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td><td bgcolor="White"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl01_officeIdLabel">傳真一</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl01_officerLabel">5850727</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td>
+				</tr><tr>
+					<td bgcolor="#EFF3FB"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl02_officeIdLabel">校長室</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl02_officerLabel">5837031#15  [陳俊吉校長]<br>網路電話：268001</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td><td bgcolor="White"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl03_officeIdLabel">教務處</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl03_officerLabel">5837031#16  [吳孟璋主任]<br>網路電話：268010</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td>
+				</tr><tr>
+					<td bgcolor="#EFF3FB"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl04_officeIdLabel">總務處</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl04_officerLabel">5837031#18  [陳建勳主任]<br>網路電話：268040</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td><td bgcolor="White"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl05_officeIdLabel">人事室</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl05_officerLabel">5837031#14  [吳秀眞主任]<br>網路電話：268050</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td>
+				</tr><tr>
+					<td bgcolor="#EFF3FB"><font color="#333333">
+                                            <table border="0" width="400">
+                                            <tr><td style=" height: 21px; text-align: left; width: 100px;" align="left" valign="middle">
+                                            <span id="ctl00_ContentPlaceHolder1_DataList1_ctl06_officeIdLabel">主計室</span>
+                                            </td>
+                                            <td style="height: 21px; text-align: left;" align="left" valign="middle"><span id="ctl00_ContentPlaceHolder1_DataList1_ctl06_officerLabel">5837031#14  [楊佩容主任]<br>網路電話：268050</span></td></tr>
+                                                                                       
+                                            </table>
+                                                                                            
+                                            </font></td><td><font color="#333333"></font></td>
+				</tr>
+			</table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    
+		</div>
+                    
+                    
+                    
+                     
+                   
+                </td>
+	</tr>
+</table>
+
+    </div>
+
+     <!--各系統諮詢網頁註腳開始，收件人請自行增加，但一定要包含service@tn.edu.tw這個收件人-->	
+	<table border="0" width="100%" bgcolor="#DFE1DD" cellspacing="0" cellpadding="0" height="35">
+		        <tr>
+　		        <td>
+        <div align="center">
+	        <table border="0" cellspacing="0" cellpadding="0">
+		        <tr>
+		        		         <td>
+        <div align="center">
+	        <table border="0" cellspacing="0" cellpadding="0">
+		        <tr>
+			        <td>
+			        <p align="right">
+        <font size="2">行政業務諮詢：</font></td>
+			        <td>
+			        <p style="margin-bottom: 2px">
+        <a href="http://epaper.tn.edu.tw/edmail/"><font size="2">
+        <img border="0" src="http://www.tn.edu.tw/2011images/email2.gif" alt="郵件諮詢" title="郵件諮詢"></font></a></td>
+			        <td>
+        <font size="2">‧( 06 ) 2991111　<font color="#000000">｜　</font></font></td>			        
+		        </tr>
+	        </table>
+        </div>
+			        </td>
+			        <td>
+			        <p align="right">
+        <font size="2">　系統諮詢：</font></td>
+			        <td>
+			        <p style="margin-bottom: 2px">
+        <a href="mailto:service@tn.edu.tw?subject=各級學校基本資料有關之問題與建議"><font size="2">
+        <img border="0" src="http://www.tn.edu.tw/2011images/email2.gif" alt="郵件諮詢" title="郵件諮詢"></font></a></td>
+			        <td>
+        <font size="2">‧( 06 ) 2130669（<a href="http://www.tn.edu.tw/readme.htm"><font color="#000000">服務說明</font></a>）</font></td>
+			        <td>
+        <font size="2">｜Copyright &copy; 2011 臺南市教育局資訊中心 All Rights Reserved.</font></td>
+		        </tr>
+	        </table>
+        </div>
+			        </td>
+		        </tr>
+	</table>
+    <!--各系統諮詢網頁註腳結束-->
+
+</td></tr>
+</table>
+                        
+    </form>
+</body>
+</html>
