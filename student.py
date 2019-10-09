@@ -19,7 +19,7 @@ HTML = u"""<!DOCTYPE html>
         <title>班級男女生人數統計(含折抵)</title>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/journal/bootstrap.min.css">
 
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -71,7 +71,7 @@ HTML = u"""<!DOCTYPE html>
                                                 <td class="danger">{{ sum[0] }}</td>
                                                 {% set _ = total_f.append(total_f.pop() + sum[0]) -%}
                                             </tr>
-                                            <tr class="success">
+                                            <tr class="success text-right">
                                                 {% set sum = [0] -%}
                                                 {% for cell in result[i] -%}
                                                     {% set _ = sum.append(sum.pop() + cell[4] | int) -%}
@@ -89,7 +89,7 @@ HTML = u"""<!DOCTYPE html>
                                                 <td class="danger">{{ cell[3] }}</td>
                                             </tr>
                                             <tr class="success">
-                                                <td colspan="2">{{ cell[4] }} ({{ cell[5] | default('0', true) }}, {{ cell[6] | default('0', true) }}) / {{ cell[7] }}</td>
+                                                <td colspan="2" class="text-right">{{ cell[4] }}<br><span class="small">({{ cell[5] | default('0', true) }}, {{ cell[6] | default('0', true) }}) / {{ cell[7] }}</span></td>
                                             </tr>
                                         </table>
                                     </td>
