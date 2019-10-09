@@ -416,30 +416,55 @@ def toDigit(text):
 
 
 def combineTables(normal=[], special=[]):
-    result = [[] for x in xrange(0, 6)]
+    # lyshie_20191009: create six grades dict()
+    result = {x: dict() for x in xrange(0, 6)}
     width = 0
 
+    # 折抵人數（不包含特殊班級）
     for row in special:
-        g = int(row[0]) - 1
-        result[g].append(row)
+        g = int(row[0]) - 1  # grade
+        c = int(row[1]) - 1  # class
+        result[g][c] = row
 
-        width = max(width, len(result[g]))
+        width = max(width, c + 1)
 
+    # 班級人數
     for row in normal:
-        g = int(row[0]) - 1
-        c = int(row[1])
-        if len(result[g]) < c:
-            row[2], row[3] = row[3], row[2]
-            result[g].append(row)
+        g = int(row[0]) - 1  # grade
+        c = int(row[1]) - 1  # class
+        if c not in result[g]:
+            row[2], row[3] = row[3], row[2]  # 調換男女人數
+            result[g][c] = row
 
-        width = max(width, len(result[g]))
+        width = max(width, c + 1)
 
-    return result, width
+    ''' lyshie_20191009: convert dict() to list()
+        {0 : { 0 : [A],
+               1 : [B]
+             },
+         1 : { 0 : [C],
+               1 : [D],
+               2 : [E]
+             }
+        }
+
+        [
+          [ [A], [B] ],
+          [ [C], [D], [E] ]
+        ]
+    '''
+    result2 = list()
+    for k in result.keys():
+        classes = result.get(k)  # { 0:[A], 1:[B] }
+        grades = [classes.get(c) for c in classes.keys()]  # [ [A], [B] ]
+        result2.append(grades)
+
+    return result2, width
 
 
 def main():
     form = cgi.FieldStorage()
-    if form.has_key('id'):
+    if 'id' in form:
         schoolid = form['id'].value
     else:
         schoolid = '213623'
@@ -451,7 +476,6 @@ def main():
                                                                                           url=SPECIAL['url'], selectid=SPECIAL['selectid'], tableid=SPECIAL['tableid']))
 
     result, width = combineTables(normal=normal_data, special=special_data)
-    # pprint.pprint(result)
 
     print "Content-Type: text/html;charset=utf-8"
     print
