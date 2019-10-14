@@ -417,7 +417,7 @@ def toDigit(text):
 
 def combineTables(normal=[], special=[]):
     # lyshie_20191009: create six grades dict()
-    result = {x: dict() for x in xrange(0, 6)}
+    result = {x: dict() for x in range(0, 6)}
     width = 0
 
     # 折抵人數（不包含特殊班級）
@@ -454,9 +454,10 @@ def combineTables(normal=[], special=[]):
         ]
     '''
     result2 = list()
-    for k in result.keys():
+    for k in sorted(result.keys()):
         classes = result.get(k)  # { 0:[A], 1:[B] }
-        grades = [classes.get(c) for c in classes.keys()]  # [ [A], [B] ]
+        grades = [classes.get(c)
+                  for c in sorted(classes.keys())]  # [ [A], [B] ]
         result2.append(grades)
 
     return result2, width
@@ -477,9 +478,9 @@ def main():
 
     result, width = combineTables(normal=normal_data, special=special_data)
 
-    print "Content-Type: text/html;charset=utf-8"
-    print
-    print template.render(result=result, width=width).encode("UTF-8")
+    print("Content-Type: text/html;charset=utf-8")
+    print()
+    print(template.render(result=result, width=width).encode("UTF-8"))
 
     cache.close()
 
