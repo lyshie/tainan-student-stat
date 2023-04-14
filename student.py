@@ -49,9 +49,11 @@ HTML = u"""<!DOCTYPE html>
                                     {% endfor -%}
                             </thead>
                             <tbody>
-                                {% set total = [0] -%}
+                                {% set total   = [0] -%}
                                 {% set total_m = [0] -%}
                                 {% set total_f = [0] -%}
+                                {% set total_2 = [0] -%}
+                                {% set total_1 = [0] -%}
                                 {% for i in range(6) -%}
                                 <tr>
                                     <td>{{ i + 1 }}</td>
@@ -73,12 +75,18 @@ HTML = u"""<!DOCTYPE html>
                                                 {% set _ = total_f.append(total_f.pop() + sum[0]) -%}
                                             </tr>
                                             <tr class="success text-right">
-                                                {% set sum = [0] -%}
+                                                {% set sum  = [0] -%}
+                                                {% set sum2 = [0] -%}
+                                                {% set sum1 = [0] -%}
                                                 {% for cell in result[i] -%}
-                                                    {% set _ = sum.append(sum.pop() + cell[4] | int) -%}
+                                                    {% set _ = sum.append(sum.pop()   + cell[4] | int) -%}
+                                                    {% set _ = sum2.append(sum2.pop() + cell[5] | default(0) | int) -%}
+                                                    {% set _ = sum1.append(sum1.pop() + cell[6] | default(0) | int) -%}
                                                 {% endfor -%}
-                                                <td colspan="2">{{ sum[0] }}</td>
-                                                {% set _ = total.append(total.pop() + sum[0]) -%}
+                                                <td colspan="2">{{ sum[0] }}<br><span class="small">({{ sum2[0] }}, {{ sum1[0] }}) / {{ sum[0] + sum2[0] * 2 + sum1[0] }}</span></td>
+                                                {% set _ = total.append(total.pop()     + sum[0])  -%}
+                                                {% set _ = total_2.append(total_2.pop() + sum2[0]) -%}
+                                                {% set _ = total_1.append(total_1.pop() + sum1[0]) -%}
                                             </tr>
                                         </table>
                                     </td>
@@ -110,7 +118,7 @@ HTML = u"""<!DOCTYPE html>
                                     <td colspan="{{ width }}">
                                         <table class="table text-left">
                                             <tr>
-                                                <td class="warning">{{ total[0] }}</td>
+                                                <td class="warning">{{ total[0] }}<br><span class="small">({{ total_2[0] }}, {{ total_1[0] }}) / {{ total[0] + total_2[0] * 2 + total_1[0] }}</span></td>
                                             </tr>
                                         </table>
                                     </td>
