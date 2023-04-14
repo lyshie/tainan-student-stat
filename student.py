@@ -126,6 +126,7 @@ HTML = u"""<!DOCTYPE html>
                 <div class="col-lg-3">
                     <select id="schoolid" class="form-control form-inline">
                         <option value="114681">七股</option>
+                        <option value="213647">九份子</option>
                         <option value="114726">二溪</option>
                         <option value="114625">三村</option>
                         <option value="114684">三股</option>
@@ -321,6 +322,7 @@ HTML = u"""<!DOCTYPE html>
                         <option value="114637">層林</option>
                         <option value="114607">德南</option>
                         <option value="213605">德高</option>
+                        <option value="213648">蓮潭</option>
                         <option value="213645">賢北</option>
                         <option value="114706">學甲</option>
                         <option value="213643">學東</option>
