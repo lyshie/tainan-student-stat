@@ -371,10 +371,10 @@ HTML = u"""<!DOCTYPE html>
 </html>
 """
 
-NORMAL = {'url': 'https://std.tn.edu.tw/sis/AnonyQuery/StatGradeClassSex.aspx',
+NORMAL = {'url': 'http://std.tn.edu.tw/sis/AnonyQuery/StatGradeClassSex.aspx',
           'selectid': 'ctl00$ContentPlaceHolder1$ddlSchool1$School',
           'tableid': 'ContentPlaceHolder1_gvStat'}
-SPECIAL = {'url': 'https://std.tn.edu.tw/sis/AnonyQuery/SchoolStat.aspx',
+SPECIAL = {'url': 'http://std.tn.edu.tw/sis/AnonyQuery/SchoolStat.aspx',
            'selectid': 'ctl00$ContentPlaceHolder1$DdlSchool1$School',
            'tableid': 'ContentPlaceHolder1_gv1'}
 
